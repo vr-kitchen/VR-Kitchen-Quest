@@ -147,12 +147,12 @@ PrefabInstance:
     - target: {fileID: 7965783791829060510, guid: 79d6eb9496d140a4c953d23ac9677d1c,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7965783791829060510, guid: 79d6eb9496d140a4c953d23ac9677d1c,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7965783791829060510, guid: 79d6eb9496d140a4c953d23ac9677d1c,
         type: 3}
@@ -2163,17 +2163,26 @@ PrefabInstance:
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_Text
-      value: '<i>WARNING! PLEASE READ! </i>
+      value: '<b><i>WARNING! PLEASE READ! </i></b>
 
 
-        Vehicles in VR can very easily
-        induce motion sickness! Please be very careful and keep sessions short when
-        testing this scene.'
+        Vehicles in VR can very
+        easily induce motion sickness! Please be very careful and keep sessions short
+        when testing this scene.
+
+
+        <b>Directions : </b> Grab the Steering
+        Wheel with Grip and use Trigger to forward / reverse
+
+
+        <b>Tip : </b>
+        Player too tall or too short? Try hitting spacebar / using the "CalibratePlayerHeight"
+        component'
       objectReference: {fileID: 0}
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 54
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
@@ -2183,17 +2192,17 @@ PrefabInstance:
     - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
-        type: 3}
-      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.075
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
@@ -3447,7 +3456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2101360833
 Transform:
   m_ObjectHideFlags: 0

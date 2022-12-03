@@ -107,7 +107,9 @@ namespace BNG {
         OVRInput,
         SteamVR,
         Pico,
-        UnityInput
+        UnityInput,
+        WebXR,
+        None
     }
 
     public enum SDKProvider {
@@ -313,6 +315,20 @@ namespace BNG {
         public Vector2 LeftTouchPadAxis;
         public Vector2 RightTouchPadAxis;
 
+        [Header("Finger Tracking")]
+        [Tooltip("SteamVR Only - Shows the curl value of the thumb. 0 = Fully extended, 1 = Fully Curled")]
+        public float LeftThumbCurl = 0f;
+        public float LeftIndexCurl = 0f;
+        public float LeftMiddleCurl = 0f;
+        public float LeftRingCurl = 0f;
+        public float LeftPinkyCurl = 0f;
+
+        [Tooltip("SteamVR Only - Shows the curl value of the thumb. 0 = Fully extended, 1 = Fully Curled")]
+        public float RightThumbCurl = 0f;
+        public float RightIndexCurl = 0f;
+        public float RightMiddleCurl = 0f;
+        public float RightRingCurl = 0f;
+        public float RightPinkyCurl = 0f;
 
         #endregion
 
@@ -433,15 +449,20 @@ namespace BNG {
             _instance = this;
 
             // Update all device properties
-            List<InputDevice> devices = new List<InputDevice>();
-            InputDevices.GetDevices(devices);
+            if(GetSupportsXRInput()) {
+                List<InputDevice> devices = new List<InputDevice>();
+                InputDevices.GetDevices(devices);
 
-            setDeviceProperties();
-        }
+                setDeviceProperties();
+            }
+        }       
 
         void Start() {
 
-            SetTrackingOriginMode(TrackingOrigin);
+            // Set tracking mode to floor, device, etc. on Start
+            if(GetSupportsXRInput()) {
+                SetTrackingOriginMode(TrackingOrigin);
+            }
 
 #if STEAM_VR_SDK
             SteamVRSupport = true;
@@ -464,7 +485,15 @@ namespace BNG {
         }
 
         void OnEnable() {
-#if UNITY_2019_3_OR_NEWER
+#if UNITY_WEBGL
+            if(Application.isEditor) {
+                // Update in editor device changed
+                InputDevices.deviceConfigChanged += onDeviceChanged;
+                InputDevices.deviceConnected += onDeviceChanged;
+                InputDevices.deviceDisconnected += onDeviceChanged;
+            }
+
+#elif UNITY_2019_3_OR_NEWER
             InputDevices.deviceConfigChanged += onDeviceChanged;
             InputDevices.deviceConnected += onDeviceChanged;
             InputDevices.deviceDisconnected += onDeviceChanged;
@@ -488,6 +517,7 @@ namespace BNG {
         }
 
         public virtual void UpdateInputs() {
+
             // SteamVR uses an action system. Only update if HMD is reported as Active
             if (InputSource == XRInputSource.SteamVR && SteamVRSupport && HMDActive) {
                 UpdateSteamInput();
@@ -569,6 +599,19 @@ namespace BNG {
             YButton = SteamVR_Actions.vRIF_YButton.state;
             YButtonDown = SteamVR_Actions.vRIF_YButton.stateDown;
             YButtonUp = SteamVR_Actions.vRIF_YButton.stateUp;
+
+            // Hand Tracking (Ie Valve Knuckles Finger Tracking)
+            LeftThumbCurl = SteamVR_Actions.vRIF_SkeletonLeftHand.thumbCurl;
+            LeftIndexCurl = SteamVR_Actions.vRIF_SkeletonLeftHand.indexCurl;
+            LeftMiddleCurl = SteamVR_Actions.vRIF_SkeletonLeftHand.middleCurl;
+            LeftRingCurl = SteamVR_Actions.vRIF_SkeletonLeftHand.ringCurl;
+            LeftPinkyCurl = SteamVR_Actions.vRIF_SkeletonLeftHand.pinkyCurl;
+
+            RightThumbCurl = SteamVR_Actions.vRIF_SkeletonRightHand.thumbCurl;
+            RightIndexCurl = SteamVR_Actions.vRIF_SkeletonRightHand.indexCurl;
+            RightMiddleCurl = SteamVR_Actions.vRIF_SkeletonRightHand.middleCurl;
+            RightRingCurl = SteamVR_Actions.vRIF_SkeletonRightHand.ringCurl;
+            RightPinkyCurl = SteamVR_Actions.vRIF_SkeletonRightHand.pinkyCurl;
 
             //prevBool = StartButton;
             //StartButton = SteamVR_Actions.vRIF_StartButton.state;
@@ -998,23 +1041,34 @@ namespace BNG {
 
         public virtual void UpdateDeviceActive() {
 
-            InputDevice hmd = GetHMD();
+            // Check XR Input to see if we can get active status
+            if(GetSupportsXRInput()) {
+                InputDevice hmd = GetHMD();
 
-            // Can bail early
-            if (hmd.isValid == false) {
-                HMDActive = false;
-                return;
+                // Check if hmd is valid from XRInput
+                if (hmd.isValid == false) {
+                    HMDActive = false;
+                }
+
+                // Make sure the device supports the presence feature
+                bool userPresent = false;
+                bool presenceFeatureSupported = hmd.TryGetFeatureValue(CommonUsages.userPresence, out userPresent);
+                if (presenceFeatureSupported) {
+                    HMDActive = userPresent;
+                }
+                else {
+                    HMDActive = XRSettings.isDeviceActive;
+                }
             }
 
-            // Make sure the device supports the presence feature
-            bool userPresent = false;
-            bool presenceFeatureSupported = hmd.TryGetFeatureValue(CommonUsages.userPresence, out userPresent);
-            if(presenceFeatureSupported) {
-                HMDActive = userPresent;
+#if STEAM_VR_SDK
+            if(!HMDActive) {
+                // SteamVR doesn't always directly report as active, but we can double check against the device name
+                if(!string.IsNullOrEmpty(GetHMDName())) {
+                    HMDActive = true;
+                }
             }
-            else {
-                HMDActive = XRSettings.isDeviceActive;
-            }
+#endif
         }
 
         /// <summary>
@@ -1143,6 +1197,25 @@ namespace BNG {
             }
         }
 
+        public virtual bool GetSupportsXRInput() {
+
+#if UNITY_WEBGL
+            // WebGL cannot handle calls to XRInput
+            return false;
+#endif
+            // Most Input Sources support XRInput in some form. Skip for WebXR since it will throw errors
+            if (InputSource == XRInputSource.WebXR) {
+                return false;
+            }
+
+            // Let the user call any XRInput related functions in their own input provider
+            if (InputSource == XRInputSource.None) {
+                return false;
+            }
+
+            return true;
+        }
+
         /// <summary>
         /// Returns true if the controllers support the 'indexTouch' XR input mapping.Currently only Oculus devices on the Oculus SDK support index touch. OpenVR is not supported.
         /// </summary>
@@ -1250,6 +1323,7 @@ namespace BNG {
         }
 
         public InputDevice GetHMD() {
+
             InputDevices.GetDevices(devices);
 
             var hmds = new List<InputDevice>();
@@ -1350,13 +1424,23 @@ namespace BNG {
         }
 
         public Vector3 GetControllerVelocity(ControllerHand hand) {
+#if UNITY_WEBGL
+            return Vector3.zero;
+#else
             InputDevice inputDevice = hand == ControllerHand.Left ? GetLeftController() : GetRightController();
             return getFeatureUsage(inputDevice, CommonUsages.deviceVelocity);
+#endif
+
+
         }
 
         public Vector3 GetControllerAngularVelocity(ControllerHand hand) {
+#if UNITY_WEBGL
+            return Vector3.zero;
+#else
             InputDevice inputDevice = hand == ControllerHand.Left ? GetLeftController() : GetRightController();
             return getFeatureUsage(inputDevice, CommonUsages.deviceAngularVelocity);
+#endif
         }
 
         /// <summary>
@@ -1487,15 +1571,22 @@ namespace BNG {
             if (InputSource == XRInputSource.OVRInput) {
                 StartCoroutine(Vibrate(frequency, amplitude, duration, hand));
             }
-            else if (InputSource == XRInputSource.SteamVR && SteamVRSupport) {
+            else if (InputSource == XRInputSource.SteamVR && SteamVRSupport && HMDActive) {
 #if STEAM_VR_SDK
                 if (hand == ControllerHand.Right) {
-                    SteamVR_Actions.vRIF_Haptic.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.RightHand);
+                    if(SteamVR_Actions.vRIF_Haptic != null) {
+                        SteamVR_Actions.vRIF_Haptic.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.RightHand);
+                    }
                 }
                 else {
-                    SteamVR_Actions.vRIF_Haptic.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.LeftHand);
+                    if (SteamVR_Actions.vRIF_Haptic != null) {
+                        SteamVR_Actions.vRIF_Haptic.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.LeftHand);
+                    }
                 }                
 #endif
+            }
+            else if (InputSource == XRInputSource.WebXR && !Application.isEditor) {
+                // No haptics in WebXR currently
             }
             // Default / Fallback to XRInput
             else {

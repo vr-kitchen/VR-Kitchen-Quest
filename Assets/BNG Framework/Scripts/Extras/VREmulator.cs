@@ -11,6 +11,12 @@ namespace BNG {
         [Tooltip("Use Emulator if true and HMDIsActive is false")]
         public bool EmulatorEnabled = true;
 
+        [Tooltip("Set to false if you want to use in standalone builds as well as the editor")]
+        public bool EditorOnly = true;
+
+        [Tooltip("If true the game window must have focus for the emulator to be active")]
+        public bool RequireGameFocus = true;
+
         [Header("Input : ")]
         [SerializeField]
         [Tooltip("Action set used specifically to mimic or supplement a vr setup")]
@@ -73,6 +79,8 @@ namespace BNG {
 
         [Tooltip("Unity Input Action used to mimic having your thumb near a button")]
         public InputActionReference RightThumbNearAction;
+
+       
 
         float mouseRotationX;
         float mouseRotationY;
@@ -194,15 +202,14 @@ namespace BNG {
         public virtual bool HasRequiredFocus() {
 
             // No Focus Required
-            if(RequireGameFocus == false) {
+            if(EditorOnly == false || RequireGameFocus == false) {
                 return true;
             }
 
-            return Application.isEditor && Application.isFocused;
+            return Application.isFocused;
         }
 
         public void CheckHeadControls() {
-
 
             // Hold LockCameraAction (example : right mouse button down ) to move camera around
             if (LockCameraAction != null) {
@@ -237,9 +244,7 @@ namespace BNG {
                     Cursor.visible = true;
                 }
             }
-        }
-
-        public bool RequireGameFocus = true;
+        }        
 
         float prevVal;
         /// <summary>
@@ -302,7 +307,7 @@ namespace BNG {
         public void CheckPlayerControls() {
 
             // Require focus
-            if(RequireGameFocus && Application.isEditor && !Application.isFocused) {
+            if(EditorOnly && !Application.isEditor) {
                 return;
             }
 

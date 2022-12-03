@@ -104,7 +104,7 @@ namespace BNG {
             _scaleTo = ScaleItem;
 
             // Auto Equip item by moving it into place and grabbing it
-            if(StartingItem != null) {
+            if (StartingItem != null) {
                 StartingItem.transform.position = transform.position;
                 GrabGrabbable(StartingItem);
             }
@@ -137,9 +137,9 @@ namespace BNG {
                 else {
                     // Scale Item while inside zone.                                            
                     HeldItem.transform.localScale = Vector3.Lerp(HeldItem.transform.localScale, HeldItem.OriginalScale * _scaleTo, Time.deltaTime * 30f);
-                    
+
                     // Make sure this can't be grabbed from the snap zone
-                    if(HeldItem.enabled || (disabledColliders != null && disabledColliders.Count > 0 && disabledColliders[0] != null && disabledColliders[0].enabled)) {
+                    if (HeldItem.enabled || (disabledColliders != null && disabledColliders.Count > 0 && disabledColliders[0] != null && disabledColliders[0].enabled)) {
                         disableGrabbable(HeldItem);
                     }
                 }
@@ -165,20 +165,20 @@ namespace BNG {
             foreach (var g in gZone.NearbyGrabbables) {
 
                 // Collider may have been disabled
-                if(g.Key == null) {
+                if (g.Key == null) {
                     continue;
                 }
 
                 float dist = Vector3.Distance(transform.position, g.Value.transform.position);
-                if(dist < lastDistance) {
+                if (dist < lastDistance) {
 
                     //  Not allowing secondary grabbables such as slides
-                    if(g.Value.OtherGrabbableMustBeGrabbed != null) {
+                    if (g.Value.OtherGrabbableMustBeGrabbed != null) {
                         continue;
                     }
 
                     // Don't allow SnapZones in SnapZones
-                    if(g.Value.GetComponent<SnapZone>() != null) {
+                    if (g.Value.GetComponent<SnapZone>() != null) {
                         continue;
                     }
 
@@ -194,12 +194,12 @@ namespace BNG {
                         for (int x = 0; x < OnlyAllowNames.Count; x++) {
                             string name = OnlyAllowNames[x];
                             if (transformName.Contains(name)) {
-                                matchFound = true;                                
+                                matchFound = true;
                             }
                         }
 
                         // Not a valid match
-                        if(!matchFound) {
+                        if (!matchFound) {
                             continue;
                         }
                     }
@@ -231,14 +231,14 @@ namespace BNG {
             return closest;
         }
 
-        public void GrabGrabbable(Grabbable grab) {
+        public virtual void GrabGrabbable(Grabbable grab) {
 
             // Grab is already in Snap Zone
-            if(grab.transform.parent != null && grab.transform.parent.GetComponent<SnapZone>() != null) {
+            if (grab.transform.parent != null && grab.transform.parent.GetComponent<SnapZone>() != null) {
                 return;
             }
 
-            if(HeldItem != null) {
+            if (HeldItem != null) {
                 ReleaseAll();
             }
 
@@ -246,7 +246,7 @@ namespace BNG {
             heldItemRigid = HeldItem.GetComponent<Rigidbody>();
 
             // Mark as kinematic so it doesn't fall down
-            if(heldItemRigid) {
+            if (heldItemRigid) {
                 heldItemWasKinematic = heldItemRigid.isKinematic;
                 heldItemRigid.isKinematic = true;
             }
@@ -268,7 +268,7 @@ namespace BNG {
 
             // Is there an offset to apply?
             SnapZoneOffset off = grab.GetComponent<SnapZoneOffset>();
-            if(off) {
+            if (off) {
                 offset = off;
             }
             else {
@@ -305,7 +305,7 @@ namespace BNG {
 
             if (SoundOnSnap) {
                 // Only play the sound if not just starting the scene
-                if(Time.timeSinceLevelLoad > 0.1f) {
+                if (Time.timeSinceLevelLoad > 0.1f) {
                     VRUtils.Instance.PlaySpatialClipAt(SoundOnSnap, transform.position, 0.75f);
                 }
             }
@@ -330,18 +330,18 @@ namespace BNG {
         /// This is typically called by the GrabAction on the SnapZone
         /// </summary>
         /// <param name="grabber"></param>
-        public void GrabEquipped(Grabber grabber) {
+        public virtual void GrabEquipped(Grabber grabber) {
 
             if (grabber != null) {
-                if(HeldItem) {
+                if (HeldItem) {
 
                     // Not allowed to be removed
-                    if(!CanBeRemoved()) {
+                    if (!CanBeRemoved()) {
                         return;
                     }
 
                     var g = HeldItem;
-                    if(DuplicateItemOnGrab) {
+                    if (DuplicateItemOnGrab) {
 
                         ReleaseAll();
 
@@ -392,7 +392,7 @@ namespace BNG {
         /// <summary>
         /// Release  everything snapped to us
         /// </summary>
-        public void ReleaseAll() {
+        public virtual void ReleaseAll() {
 
             // No need to keep checking
             if (HeldItem == null) {
@@ -408,7 +408,7 @@ namespace BNG {
 
             if (DisableColliders && disabledColliders != null) {
                 foreach (var c in disabledColliders) {
-                    if(c) {
+                    if (c) {
                         c.enabled = true;
                     }
                 }
@@ -416,7 +416,7 @@ namespace BNG {
             disabledColliders = null;
 
             // Reset Kinematic status
-            if(heldItemRigid) {
+            if (heldItemRigid) {
                 heldItemRigid.isKinematic = heldItemWasKinematic;
             }
 
@@ -424,7 +424,7 @@ namespace BNG {
             HeldItem.transform.parent = null;
 
             // Play Unsnap sound
-            if(HeldItem != null) {
+            if (HeldItem != null) {
                 if (SoundOnUnsnap) {
                     if (Time.timeSinceLevelLoad > 0.1f) {
                         VRUtils.Instance.PlaySpatialClipAt(SoundOnUnsnap, transform.position, 0.75f);

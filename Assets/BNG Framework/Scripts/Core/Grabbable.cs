@@ -509,7 +509,7 @@ namespace BNG {
 
             // Set Original Scale based in World coordinates if available
             if (transform.parent != null) {
-                OriginalScale = transform.parent.TransformVector(transform.localScale);
+                OriginalScale = transform.lossyScale; // OriginalScale = transform.parent.TransformVector(transform.localScale);
             }
             else {
                 OriginalScale = transform.localScale;
@@ -1785,6 +1785,9 @@ namespace BNG {
                 // Release the object
                 if(releaseItem) {
 
+                    // We know the item is no longer being held. Can set this before calling any drop events
+                    BeingHeld = false;
+
                     LastDropTime = Time.time;
 
                     // Release item and apply physics force to it
@@ -1842,7 +1845,7 @@ namespace BNG {
                 // didParentHands = false;
             }
 
-            BeingHeld = heldByGrabbers != null && heldByGrabbers.Count > 0;
+            BeingHeld = heldByGrabbers != null && heldByGrabbers.Count > 0;            
         }
 
         void clearLookAtTransform() {

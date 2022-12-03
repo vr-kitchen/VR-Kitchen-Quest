@@ -19,7 +19,7 @@ namespace BNG {
         void Awake() {
             thisInputField = GetComponent<UnityEngine.UI.InputField>();
             
-            if(thisInputField) {
+            if(thisInputField && AttachedKeyboard != null) {
                 AttachedKeyboard.AttachToInputField(thisInputField);
             }
         }
@@ -52,6 +52,15 @@ namespace BNG {
         public void OnInputDeselect() {
             if (DeactivateKeyboardOnDeselect && AttachedKeyboard != null && AttachedKeyboard.gameObject.activeInHierarchy) {
                 AttachedKeyboard.gameObject.SetActive(false);
+            }
+        }
+
+        // Assign the AttachedKeyboard variable when adding the component to a GameObject for the first time
+        void Reset() {
+            var keyboard = GameObject.FindObjectOfType<VRKeyboard>();
+            if(keyboard) {
+                AttachedKeyboard = keyboard;
+                Debug.Log("Found and attached Keyboard to " + AttachedKeyboard.transform.name);
             }
         }
     }

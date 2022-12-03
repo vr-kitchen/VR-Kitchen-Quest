@@ -38,12 +38,8 @@ namespace BNG {
                 PlayerController = GetComponentInChildren<BNGPlayerController>();
             }
 
-            if(PlayerController) {
-                _initialOffset = PlayerController.CharacterControllerYOffset;
-            }
-
             if(CalibrateOnStart) {
-                CalibrateHeight();
+                StartCoroutine(setupInitialOffset());
             }
         }
 
@@ -68,6 +64,21 @@ namespace BNG {
             }
 
             return 0;
+        }
+
+        public virtual void SetInitialOffset() {
+            if (PlayerController) {
+                _initialOffset = PlayerController.CharacterControllerYOffset;
+            }
+        }
+
+        IEnumerator setupInitialOffset() {
+            // Give slight delay before calibrating height
+            yield return new WaitForSeconds(0.1f);
+
+            SetInitialOffset();
+
+            CalibrateHeight();
         }
     }
 }

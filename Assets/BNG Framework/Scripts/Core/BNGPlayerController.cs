@@ -24,6 +24,9 @@ namespace BNG {
         [Tooltip("If true the CharacterController will rotate it's Y angle to match the HMD's Y angle")]
         public bool RotateCharacterWithCamera = true;
 
+        [Tooltip("If true the CharacterController will resize to match the calculated player height (distance from floor to camera)")]
+        public bool ResizeCharacterHeightWithCamera = true;
+
         [Header("Transform Setup ")]
 
         [Tooltip("The TrackingSpace represents your tracking space origin.")]
@@ -104,26 +107,26 @@ namespace BNG {
         public float LastPlayerMoveTime;
 
         // The controller to manipulate
-        CharacterController characterController;
+        protected CharacterController characterController;
 
         // The controller to manipulate
-        Rigidbody playerRigid;
-        CapsuleCollider playerCapsule;
+        protected Rigidbody playerRigid;
+        protected CapsuleCollider playerCapsule;
 
         // Use smooth movement if available
-        SmoothLocomotion smoothLocomotion;
+        protected SmoothLocomotion smoothLocomotion;
 
         // Optional components can be used to update LastMoved Time
-        PlayerClimbing playerClimbing;
-        bool isClimbing, wasClimbing = false;
+        protected PlayerClimbing playerClimbing;
+        protected bool isClimbing, wasClimbing = false;
 
         // This the object that is currently beneath us
         public RaycastHit groundHit;
 
         // Stored for GC
-        RaycastHit hit;
+        protected RaycastHit hit;
 
-        Transform mainCamera;
+        protected Transform mainCamera;
 
         private Vector3 _initialPosition;
 
@@ -161,7 +164,9 @@ namespace BNG {
             }
 
             // Update the Character Controller's Capsule Height to match our Camera position
-            UpdateCharacterHeight();
+            if(ResizeCharacterHeightWithCamera) {
+                UpdateCharacterHeight();
+            }
 
             // Update the position of our camera rig to account for our player's height
             UpdateCameraRigPosition();
@@ -333,7 +338,7 @@ namespace BNG {
                     playerCapsule.height = playerClimbing.ClimbingCapsuleHeight;
                     playerCapsule.center = new Vector3(0, playerClimbing.ClimbingCapsuleCenter * 2, 0);
                 }
-                else {
+                else if(playerClimbing != null) {
                     characterController.center = new Vector3(0, playerClimbing.ClimbingCapsuleCenter, 0);
                 }
             }
@@ -406,7 +411,7 @@ namespace BNG {
             }
         }
 
-        public bool IsGrounded() {
+        public virtual bool IsGrounded() {
 
             // Immediately check for a positive from a CharacterController if it's present
             if(characterController != null) {

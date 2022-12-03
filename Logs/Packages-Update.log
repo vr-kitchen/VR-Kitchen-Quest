@@ -97,3 +97,11 @@ The following packages were updated:
   com.unity.xr.management from version 4.0.7 to 4.2.0
   com.unity.xr.oculus from version 1.9.1 to 3.2.1
   com.unity.xr.openxr from version 1.2.8 to 1.5.3
+
+=== Sat Dec  3 16:12:53 2022
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.ugui@1.0.0
