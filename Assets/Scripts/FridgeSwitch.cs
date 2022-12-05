@@ -10,7 +10,7 @@ using UnityEditor.Events;
 
 public class FridgeSwitch : MonoBehaviour
 {
-  public VRInputModule inputscript;
+  //public VRInputModule inputscript;
   public GameObject[] Fridges; //array of fridges to visible/nonvisible
   //public GameObject[] ActiveFridge;
   public int ActiveFridge; //th array number of active fridge
@@ -294,8 +294,8 @@ public class FridgeSwitch : MonoBehaviour
 
             for (int i = 0; i < pocket.Length; i++)
             {
-                if(pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>())
-                     pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>().enabled=stat;
+                //if(pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>())
+                    // pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>().enabled=stat;
                 /*else if(pocket[i].GetComponent<MeshCollider>())
                 {
                     pocket[i].GetComponent<MeshCollider>().enabled = stat;

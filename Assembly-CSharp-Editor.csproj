@@ -75,6 +75,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\Editor\SteamAudioManagerInspector.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawInspectorCategory.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\ExplosiveEditor.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoserEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\GrabbableEditor.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledTextureSingleLineDrawer.cs" />
@@ -138,7 +139,6 @@
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledRangeOptionsDrawer.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledOptionsSliderDrawer.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledRemapSliderDrawer.cs" />
-    <Compile Include="Assets\BNG Framework\Editor\ExplosiveEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -848,6 +848,10 @@
       <Project>{F51B7AFC-1E55-C07C-99F7-5FE8D18B9D55}</Project>
       <Name>Facebook.Wit.Dictation</Name>
     </ProjectReference>
+    <ProjectReference Include="BNGHandPoseID.csproj">
+      <Project>{A410AE75-730B-45F9-664F-59252852647A}</Project>
+      <Name>BNGHandPoseID</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{7A496578-8EC3-A275-582E-8347DE02DD4A}</Project>
       <Name>Oculus.VR</Name>
@@ -1035,10 +1039,6 @@
     <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
       <Project>{279280FD-6F57-5795-33C2-494DC2D7471A}</Project>
       <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="BNGHandPoseID.csproj">
-      <Project>{A410AE75-730B-45F9-664F-59252852647A}</Project>
-      <Name>BNGHandPoseID</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -87,10 +87,9 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs" />
     <Compile Include="Assets\Scripts\drive_onboarding.cs" />
-    <Compile Include="Assets\Scripts\swithLight.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Scripts\StyledMono\StyledScriptableObject.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\HingeHelper.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshUI.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\HingeHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\GrappleShot.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\VolumeAndPlaneSwitcher.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\HandPose.cs" />
@@ -127,6 +126,7 @@
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoCube.cs" />
     <Compile Include="Assets\Scripts\SceneLoad.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoseBlender.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\PassthroughPlayInEditor.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledSpace.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\MagazineSlide.cs" />
@@ -168,7 +168,6 @@
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledMessage.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\RingHelper.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\Scene.cs" />
-    <Compile Include="Assets\Scripts\positionY.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHaptics.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledEnum.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
@@ -227,6 +226,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiVectorInspector.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\SteamAudioProbeBox.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ConstrainLocalPosition.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\PoseableObject.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\IgnoreColliders.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs" />
@@ -241,6 +241,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\DetachableLimb.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SampleHandController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCar.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughSurface.cs" />
     <Compile Include="Assets\Scripts\PlayerDistanceCheck.cs" />
@@ -256,6 +257,7 @@
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BowArm.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\SlidingDoorMover.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\ProbeManager.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Utility\FixNonUniformScale.cs" />
@@ -293,6 +295,7 @@
     <Compile Include="Assets\ViveMediaDecoder\Scripts\PlayerScripts\StereoVideoSourceController.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledText.cs" />
     <Compile Include="Assets\Scripts\WelcomeFirstComerTracker.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\HandModelSwitcher.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\0Mat\Ultimate 10 Plus Shaders\Scripts\U10PS_MouseRotation.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ColliderZone.cs" />
@@ -306,7 +309,6 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransition.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\MaterialPresetList.cs" />
-    <Compile Include="Assets\Scripts\openCloset.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Utility\VRUtils.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\SelectionCylinder.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
@@ -329,18 +331,21 @@
     <Compile Include="Assets\BNG Framework\Scripts\Components\RotateTowards.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Utility\DestroyIfPlayMode.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\UI\UIButtonCollider.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterYOffset.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\RemoteGrabber.cs" />
     <Compile Include="Assets\Scripts\perspectiveanimcont.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\CollisionSound.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\AnalyticsUI.cs" />
     <Compile Include="Assets\ViveMediaDecoder\Scripts\PlayerScripts\StereoImageSourceController.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\XRTrackedPoseDriver.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\Baker.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\GrabberArea.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\BoneCapsuleTriggerLogic.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\ColorGrabbable.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MediaPlayerImage.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\HeadCollisionMove.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Grabber.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\UICanvasGroup.cs" />
@@ -380,7 +385,6 @@
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\Version.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionBlink.cs" />
-    <Compile Include="Assets\Scripts\showController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRTextInput.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\HandJet.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\SimulationSettingsPresetList.cs" />
@@ -390,12 +394,12 @@
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\AutoPoser.cs" />
     <Compile Include="Assets\Scripts\sıfırla.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Scripts\StyledMono\StyledMonoBehaviour.cs" />
-    <Compile Include="Assets\Scripts\pointline.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerTouch.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\RequestCaptureFlow.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SavePoseBinding.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\BouncingBallLogic.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs" />
     <Compile Include="Assets\ViveMediaDecoder\Scripts\PlayerScripts\StereoProperty.cs" />
@@ -443,6 +447,7 @@
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerMovingPlatformSupport.cs" />
     <Compile Include="Assets\0Othr\SteamAudio\SimulationSettingsValue.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\ArmSwingLocomotion.cs" />
     <Compile Include="Assets\0Othr\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportDestination.cs" />
     <Compile Include="Assets\0Othr\Realistic Drone\screen.cs" />
@@ -456,7 +461,6 @@
     <Compile Include="Assets\BNG Framework\Scripts\Components\RotateWithHMD.cs" />
     <Compile Include="Assets\0Sky\BOXOPHOBIC\Utils\Scripts\SettingsUtils\SettingsData.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Scripts\OVROverlaySample.cs" />
-    <Compile Include="Assets\Scripts\VRInputModule.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoser.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
@@ -468,16 +472,6 @@
     <Compile Include="Assets\0Othr\SteamAudio\MaterialValue.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SavePoseBinding.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\PoseableObject.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\ArmSwingLocomotion.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\SlidingDoorMover.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\HandModelSwitcher.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\HeadCollisionMove.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\UI\UIButtonCollider.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoseBlender.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SampleHandController.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\XRTrackedPoseDriver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -1195,6 +1189,10 @@
       <Project>{F51B7AFC-1E55-C07C-99F7-5FE8D18B9D55}</Project>
       <Name>Facebook.Wit.Dictation</Name>
     </ProjectReference>
+    <ProjectReference Include="BNGHandPoseID.csproj">
+      <Project>{A410AE75-730B-45F9-664F-59252852647A}</Project>
+      <Name>BNGHandPoseID</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{7A496578-8EC3-A275-582E-8347DE02DD4A}</Project>
       <Name>Oculus.VR</Name>
@@ -1382,10 +1380,6 @@
     <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
       <Project>{279280FD-6F57-5795-33C2-494DC2D7471A}</Project>
       <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="BNGHandPoseID.csproj">
-      <Project>{A410AE75-730B-45F9-664F-59252852647A}</Project>
-      <Name>BNGHandPoseID</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
