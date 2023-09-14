@@ -15,12 +15,12 @@ D:/Workspace/VRKitchen/VR-Kitchen-Quest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63663
+50789
 Successfully changed project path to: D:/Workspace/VRKitchen/VR-Kitchen-Quest
 D:/Workspace/VRKitchen/VR-Kitchen-Quest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.00 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
+Refreshing native plugins compatible for Editor in 92.84 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
 Initialize engine version: 2021.1.9f1 (7a790e367ab3)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Workspace/VRKitchen/VR-Kitchen-Quest/Assets
@@ -36,48 +36,48 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000874 seconds.
+Registered in 0.000845 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.25 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 78.50 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.311 seconds
+- Completed reload, in  1.286 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1311ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (1286ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (424ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (407ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (201ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007469 seconds.
+Registered in 0.008050 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.75 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 78.43 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to retrieve XR Display Interface.
@@ -85,29 +85,29 @@ Preloading 1 native plugins for Editor in 0.03 ms.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
+- Completed reload, in  1.077 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (839ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (349ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,15 +116,15 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 3762 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.6 MB.
-System memory in use after: 160.8 MB.
+Unloading 3905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 4218.
-Total: 2.479300 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.199400 ms MarkObjects: 1.875300 ms  DeleteObjects: 0.135100 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 4362.
+Total: 2.591400 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.190700 ms MarkObjects: 1.988400 ms  DeleteObjects: 0.105200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -139,42 +139,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/0Build/Welcome Scene Models/welcomingscene_sc.fbx
-  artifactKey: Guid(da3300dfd201746fcad802e30a2965bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/0Build/Welcome Scene Models/welcomingscene_sc.fbx using Guid(da3300dfd201746fcad802e30a2965bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ffedf8e73f1790429695937e07bb00') in 0.611272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.312788 seconds.
-  path: Assets/0Build/Welcome Scene Models/welcomingboard_sc kopyası_bugggg.fbx
-  artifactKey: Guid(4988ab3af3c2141f78c073a20e128481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/0Build/Welcome Scene Models/welcomingboard_sc kopyası_bugggg.fbx using Guid(4988ab3af3c2141f78c073a20e128481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e08f5e7433f2c01808e1399b0643162') in 0.365473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.525575 seconds.
-  path: Assets/Scenes/First Ktchn-v9.unity
-  artifactKey: Guid(4c0840339792fa34cb53d8af0fb6aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/First Ktchn-v9.unity using Guid(4c0840339792fa34cb53d8af0fb6aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85d18023e3d7359330086342ec65ce1') in 0.002202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.504779 seconds.
-  path: Assets/Scenes/Third Kitchen-efedebug.unity
-  artifactKey: Guid(5a380efe81824384ba916c35f84202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Third Kitchen-efedebug.unity using Guid(5a380efe81824384ba916c35f84202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff518682877636931e10274a82779213') in 0.002077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2233.415615 seconds.
-  path: Assets/Scenes/Third Kitchen-efedebug.unity
-  artifactKey: Guid(5a380efe81824384ba916c35f84202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Third Kitchen-efedebug.unity using Guid(5a380efe81824384ba916c35f84202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5178679d3ef134a0bbe5d1930fb150f8') in 0.004093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 236.974381 seconds.
-  path: Assets/Scenes/Workathon
-  artifactKey: Guid(d44d0bf8cbb31134f8f70655211b5d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Workathon using Guid(d44d0bf8cbb31134f8f70655211b5d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5802e9e3ed32676022038524002337b') in 0.002502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.518859 seconds.
   path: Assets/Scenes/Workathon/Third Kitchen-Workathon-kahve3.unity
   artifactKey: Guid(4857b77bd1c99c64e8041b856ea977d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Workathon/Third Kitchen-Workathon-kahve3.unity using Guid(4857b77bd1c99c64e8041b856ea977d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bcab5d201dcf47328824bbd031bfe0') in 0.002838 seconds 
+Start importing Assets/Scenes/Workathon/Third Kitchen-Workathon-kahve3.unity using Guid(4857b77bd1c99c64e8041b856ea977d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58f9c6b8ef364e2121e919f139a9d3c') in 0.012641 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
