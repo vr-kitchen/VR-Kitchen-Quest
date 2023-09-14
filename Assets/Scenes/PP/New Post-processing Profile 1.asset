@@ -71,7 +71,7 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 0.25
+    value: 1.32
   contrast:
     overrideState: 0
     value: 13.2
@@ -1332,7 +1332,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.17
+    value: 0.22
   color:
     overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -1350,7 +1350,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 4.34
+    value: 3.04
   directLightingStrength:
     overrideState: 1
     value: 0
@@ -1378,16 +1378,16 @@ MonoBehaviour:
     value: 0
   focusDistance:
     overrideState: 1
-    value: 1
+    value: 322.54
   aperture:
     overrideState: 1
-    value: 0.1
+    value: 32
   focalLength:
     overrideState: 0
     value: 10
   kernelSize:
     overrideState: 1
-    value: 3
+    value: 2
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1424,18 +1424,18 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.8
+    value: 0.98
   threshold:
     overrideState: 1
-    value: 0.82
+    value: 0.94
   softKnee:
     overrideState: 1
-    value: 0.429
+    value: 0.96
   clamp:
     overrideState: 0
     value: 65471.82
   diffusion:
-    overrideState: 1
+    overrideState: 0
     value: 6
   anamorphicRatio:
     overrideState: 0
@@ -1452,7 +1452,7 @@ MonoBehaviour:
     defaultState: 1
   dirtIntensity:
     overrideState: 0
-    value: 0
+    value: 2.26
 --- !u!114 &1971842878547360883
 MonoBehaviour:
   m_ObjectHideFlags: 3
