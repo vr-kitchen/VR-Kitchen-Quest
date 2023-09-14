@@ -79,8 +79,8 @@ public class PromptEngine : MonoBehaviour
 
         //call show animation
         StartCoroutine(SpawnAnim(p));
-        print(root.transform.childCount);
-        if (root.transform.childCount > MaxVisiblePrompt)
+        print(root.transform.GetChildCount());
+        if (root.transform.GetChildCount() > MaxVisiblePrompt)
             Destroy(root.transform.GetChild(0).gameObject);
     }
 
@@ -88,7 +88,7 @@ public class PromptEngine : MonoBehaviour
     {
         
 
-        Transform promptcont = p.transform.Find("Container");
+        Transform promptcont = p.transform.FindChild("Container");
         float targety = promptcont.localPosition.y;//transform.localPosition.y;
         float targetx = promptcont.localPosition.x;
         promptcont.localPosition = new Vector3(targetx, SpawnAnimDistance*-1, 0);

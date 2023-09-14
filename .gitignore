@@ -5,11 +5,6 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
-Library/Artifacts/
-Library/ArtifactDB
-Library/ArtifactDB
-
-
 # Visual Studio cache directory
 .vs/
 
@@ -40,5 +35,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-
+.DS_Store
