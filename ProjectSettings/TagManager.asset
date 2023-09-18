@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ColliderTrigger
-  - cube
-  - equipments
-  - Tray
-  - Objects
-  - "s\u0131f\u0131rla"
-  - materialbutton
-  - modelbutton
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -21,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - friction
-  - POI
+  - Restricted
+  - Player
+  - Grabbable
   - 
   - 
   - 
@@ -46,9 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: POI=sort
-    uniqueID: 1516694377
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
