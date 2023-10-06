@@ -28171,18 +28171,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af43f75feb547f14d9b08c06b5ae4c6c, type: 3}
---- !u!114 &1567283052 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4662782255641612059, guid: af43f75feb547f14d9b08c06b5ae4c6c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1567283050}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5c6e3ac364b4d649b78d687ca95deb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1573961733
 GameObject:
   m_ObjectHideFlags: 0
@@ -54537,7 +54525,7 @@ GameObject:
   - component: {fileID: 8407083594799029740}
   - component: {fileID: 8407083594799029739}
   m_Layer: 0
-  m_Name: drawer handle
+  m_Name: drawer handle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57085,7 +57073,7 @@ HingeJoint:
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 130
+    max: 89.6786
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -79222,7 +79210,7 @@ HingeJoint:
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 130
+    max: 85.486145
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -80399,8 +80387,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 93.11369
+    max: 172.22882
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -81226,8 +81214,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 91.592155
+    max: 179.79826
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -82214,7 +82202,7 @@ MonoBehaviour:
   onSliderChange:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1567283052}
+      - m_Target: {fileID: 521825069907737210}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnDrawerUpdate
         m_Mode: 0
@@ -82507,8 +82495,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 102.4306
+    max: 187.09741
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -83014,7 +83002,7 @@ MonoBehaviour:
   onSliderChange:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1567283052}
+      - m_Target: {fileID: 559757918}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnDrawerUpdate
         m_Mode: 0
@@ -83324,8 +83312,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: -85.57731
+    max: 4.3416348
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -83541,8 +83529,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 179.82867
+    max: 278.56445
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -83914,7 +83902,7 @@ HingeJoint:
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 130
+    max: 93.82413
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -84401,7 +84389,7 @@ HingeJoint:
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 130
+    max: 89.2995
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -84814,7 +84802,7 @@ MonoBehaviour:
   onSliderChange:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1567283052}
+      - m_Target: {fileID: 3365502230018196481}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnDrawerUpdate
         m_Mode: 0
@@ -85293,8 +85281,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 100.087265
+    max: 190.66751
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -85598,8 +85586,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 101.01795
+    max: 180.45111
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -86213,7 +86201,7 @@ HingeJoint:
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 130
+    max: 83.599915
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -86663,8 +86651,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 181.68448
+    max: 266.21005
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -86872,8 +86860,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 83.301926
+    max: 173.16487
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -87040,8 +87028,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 180.52151
+    max: 272.62128
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -87173,7 +87161,7 @@ GameObject:
   - component: {fileID: 9176198133779539392}
   - component: {fileID: 9176198133779539391}
   m_Layer: 0
-  m_Name: drawer handle
+  m_Name: drawer handle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87353,7 +87341,7 @@ MonoBehaviour:
   onSliderChange:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1567283052}
+      - m_Target: {fileID: 9176198133779539389}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnDrawerUpdate
         m_Mode: 0
@@ -87632,8 +87620,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 130
+    min: 101.18268
+    max: 175.48001
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
