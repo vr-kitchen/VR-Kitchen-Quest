@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Efe/Projects/VR-Kitchen-Quest/Packages/manifest.json
+    m_FilePath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638306451131618534
-    m_Hash: 4291122144
+      ticks: 638534397190000000
+    m_Hash: 3511893607
   m_LockFileStatus:
-    m_FilePath: D:/Efe/Projects/VR-Kitchen-Quest/Packages/packages-lock.json
+    m_FilePath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638306451900547236
-    m_Hash: 3407722285
+      ticks: 638534397730000000
+    m_Hash: 4274832752
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/Efe/Projects/VR-Kitchen-Quest/Packages
-m_EditorVersion: 2022.3.9f1 (ea401c316338)
+m_ProjectPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Packages
+m_EditorVersion: 2022.3.19f1 (244b723c30a6)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@1.1.4
+- packageId: com.unity.ai.navigation@1.1.5
   testable: 0
   isDirectDependency: 1
-  version: 1.1.4
+  version: 1.1.5
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.ai.navigation@1.1.4
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.ai.navigation@1.1.5
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -52,10 +52,13 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.1.3
     - 1.1.4
+    - 1.1.5
     - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0
     compatible:
-    - 1.1.4
-    recommended: 1.1.4
+    - 1.1.5
+    recommended: 1.1.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -74,28 +77,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638224218100000000
+  datePublishedTicks: 638319373850000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 3e8d494400ccac6cbd90ee1b474470f4b1299bfa
+    revision: a905e1ab41c8afae1a75688ceb3b4dfa1686ea75
     path: 
   unityLifecycle:
-    version: 1.1.4
+    version: 1.1.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.7
+- packageId: com.unity.collab-proxy@2.2.0
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 2.2.0
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.collab-proxy@2.0.7
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.collab-proxy@2.2.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -107,7 +110,7 @@ m_ResolvedPackages:
   type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
-    more about how you can get started for free by visiting plasticscm.com.
+    more about how you can get started for free by visiting https://unity.com/solutions/version-control
   status: 0
   errors: []
   versions:
@@ -181,13 +184,12 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     - 2.1.0
+    - 2.2.0
+    - 2.3.1
     compatible:
-    - 2.0.7
-    - 2.1.0-preview.3
-    - 2.1.0-preview.5
-    - 2.1.0-preview.6
-    - 2.1.0
-    recommended: 2.0.7
+    - 2.2.0
+    - 2.3.1
+    recommended: 2.2.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -216,16 +218,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638264754080000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
+  datePublishedTicks: 638326189440000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 13a0e74f47307a1b20a57747cea59891ce36a647
+    revision: 33c8fba1793946be3c73f738edf70db0b5546afd
     path: 
   unityLifecycle:
-    version: 2.0.7
+    version: 2.2.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -237,7 +239,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.6
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -303,12 +305,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.24
+- packageId: com.unity.ide.rider@3.0.27
   testable: 0
   isDirectDependency: 1
-  version: 3.0.24
+  version: 3.0.27
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.ide.rider@3.0.24
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.ide.rider@3.0.27
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -364,10 +366,13 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     - 3.0.25
+    - 3.0.26
+    - 3.0.27
+    - 3.0.28
     compatible:
-    - 3.0.24
-    - 3.0.25
-    recommended: 3.0.25
+    - 3.0.27
+    - 3.0.28
+    recommended: 3.0.28
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -386,28 +391,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638221653400000000
+  datePublishedTicks: 638373878680000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f5decc642e3618ce1c6827d47318260e61d64714
+    revision: 1d471c19a7f21834ae5b8d0358fd6f9b242c1ee8
     path: 
   unityLifecycle:
-    version: 3.0.24
+    version: 3.0.27
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.18
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
-  version: 2.0.18
+  version: 2.0.22
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -416,7 +421,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -447,11 +452,10 @@ m_ResolvedPackages:
     - 2.0.18
     - 2.0.20
     - 2.0.21
+    - 2.0.22
     compatible:
-    - 2.0.18
-    - 2.0.20
-    - 2.0.21
-    recommended: 2.0.21
+    - 2.0.22
+    recommended: 2.0.22
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -476,16 +480,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205920000000
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
-    version: 2.0.18
+    version: 2.0.22
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -497,7 +501,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -565,7 +569,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.0
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.inputsystem@1.7.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.inputsystem@1.7.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -623,9 +627,17 @@ m_ResolvedPackages:
     - 1.6.3
     - 1.7.0
     - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -680,7 +692,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.0
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.live-capture@3.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.live-capture@3.0.0
   assetPath: Packages/com.unity.live-capture
   name: com.unity.live-capture
   displayName: Live Capture
@@ -746,7 +758,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.timeline
-    version: 1.7.5
+    version: 1.7.6
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.audio
@@ -792,12 +804,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.postprocessing@3.2.2
+- packageId: com.unity.postprocessing@3.4.0
   testable: 0
   isDirectDependency: 1
-  version: 3.2.2
+  version: 3.4.0
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.postprocessing@3.2.2
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.postprocessing@3.4.0
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -806,7 +818,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: The post-processing stack (v2) comes with a collection of effects
     and image filters you can apply to your cameras to improve the visuals of your
     games.
@@ -851,10 +863,10 @@ m_ResolvedPackages:
     - 3.2.1
     - 3.2.2
     - 3.3.0
+    - 3.4.0
     compatible:
-    - 3.2.2
-    - 3.3.0
-    recommended: 3.2.2
+    - 3.4.0
+    recommended: 3.4.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.physics
@@ -873,16 +885,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637855259850000000
-  documentationUrl: 
+  datePublishedTicks: 638384897060000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/Graphics.git
-    revision: 815ce78463c7d3006fa97cd6e8898d91cb9c3ebf
+    revision: 54427d2529ad1a9e8f31c693d751c6371f914e40
     path: 
   unityLifecycle:
-    version: 3.2.2
+    version: 3.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -894,7 +906,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -952,6 +964,11 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -967,6 +984,11 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1021,7 +1043,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1135,23 +1157,39 @@ m_ResolvedPackages:
     - 3.0.4
     - 3.0.5
     - 3.0.6
+    - 3.0.7
+    - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 3.2.0-pre.7
+    - 3.2.0-pre.8
+    - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
     - 3.0.6
+    - 3.0.7
+    - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 3.2.0-pre.7
+    - 3.2.0-pre.8
+    - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
-    recommended: 3.0.6
+    recommended: 3.0.9
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1195,12 +1233,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.5
+- packageId: com.unity.timeline@1.7.6
   testable: 0
   isDirectDependency: 1
-  version: 1.7.5
+  version: 1.7.6
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.timeline@1.7.5
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1293,21 +1331,26 @@ m_ResolvedPackages:
     - 1.7.3
     - 1.7.4
     - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
+    - 1.8.6
+    - 1.8.7
     compatible:
-    - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
-    recommended: 1.7.5
+    - 1.8.6
+    - 1.8.7
+    recommended: 1.7.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1343,16 +1386,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638229649600000000
+  datePublishedTicks: 638326112840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
+    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
     path: 
   unityLifecycle:
-    version: 1.7.5
+    version: 1.7.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1364,7 +1407,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.4
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.4
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.4
   assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
   name: com.unity.toolchain.win-x86_64-linux-x86_64
   displayName: Toolchain Win Linux x64
@@ -1405,11 +1448,13 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     - 2.0.6
+    - 2.0.9
     compatible:
     - 2.0.4
     - 2.0.5
     - 2.0.6
-    recommended: 2.0.6
+    - 2.0.9
+    recommended: 2.0.9
     deprecated: []
   dependencies:
   - name: com.unity.sysroot
@@ -1457,7 +1502,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1478,6 +1523,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1523,12 +1569,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.management@4.3.3
+- packageId: com.unity.xr.management@4.4.0
   testable: 0
   isDirectDependency: 1
-  version: 4.3.3
+  version: 4.4.0
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.xr.management@4.3.3
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.xr.management@4.4.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1537,7 +1583,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Package that provides simple management of XR plug-ins. Manages and
     offers help with loading, initialization, settings, and build support for XR
     plug-ins.
@@ -1597,10 +1643,11 @@ m_ResolvedPackages:
     - 4.3.1
     - 4.3.3
     - 4.4.0
+    - 4.4.1
     compatible:
-    - 4.3.3
     - 4.4.0
-    recommended: 4.3.3
+    - 4.4.1
+    recommended: 4.4.1
     deprecated: []
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1642,28 +1689,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638121371540000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.3/manual/index.html
+  datePublishedTicks: 638224209960000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-    revision: 11953d1846a70bfe37146dc4655a8b2d93d32b95
+    revision: 6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8
     path: 
   unityLifecycle:
-    version: 4.3.3
+    version: 4.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.oculus@4.0.0
+- packageId: com.unity.xr.oculus@4.1.2
   testable: 0
   isDirectDependency: 1
-  version: 4.0.0
+  version: 4.1.2
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.xr.oculus@4.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.xr.oculus@4.1.2
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -1672,7 +1719,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Provides display and input support for Oculus devices.
   status: 0
   errors: []
@@ -1751,19 +1798,26 @@ m_ResolvedPackages:
     - 3.2.3-pre.1
     - 3.2.3
     - 3.3.0
+    - 3.4.0
     - 4.0.0
     - 4.1.1
+    - 4.1.2
+    - 4.2.0-exp-env-depth.1
+    - 4.2.0-exp-env-depth.2
+    - 4.2.0
     compatible:
-    - 4.0.0
-    - 4.1.1
-    recommended: 4.0.0
+    - 4.1.2
+    - 4.2.0-exp-env-depth.1
+    - 4.2.0-exp-env-depth.2
+    - 4.2.0
+    recommended: 4.1.2
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
-    version: 4.2.0
+    version: 4.4.0
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -1794,28 +1848,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638188814720000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.0/manual/index.html
+  datePublishedTicks: 638351474750000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-    revision: feb0ba57c2ff63fb5f42b28da30f4d67fd328a6e
+    revision: 43cbde15c785269457550d6f414b4b2590c5ff3b
     path: 
   unityLifecycle:
-    version: 4.0.0
+    version: 4.1.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.openxr@1.8.2
+- packageId: com.unity.xr.openxr@1.9.1
   testable: 0
   isDirectDependency: 1
-  version: 1.8.2
+  version: 1.9.1
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.xr.openxr@1.8.2
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.xr.openxr@1.9.1
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -1856,22 +1910,29 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.9.1
+    - 1.10.0
+    - 1.11.0-exp.1
+    - 1.11.0
     compatible:
-    - 1.8.2
-    recommended: 1.8.2
+    - 1.9.1
+    - 1.10.0
+    - 1.11.0-exp.1
+    - 1.11.0
+    recommended: 1.9.1
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
-    version: 4.0.1
+    version: 4.4.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.2
   - name: com.unity.inputsystem
-    version: 1.4.4
+    version: 1.6.3
   - name: com.unity.xr.core-utils
     version: 2.1.1
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -1893,7 +1954,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.2.3
+    version: 2.3.0
   keywords:
   - openxr
   - xr
@@ -1909,16 +1970,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638259958150000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.8/manual/index.html
+  datePublishedTicks: 638337609010000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: be41b6db171e2e06fb1bd863b239a7fc7b2f10cf
+    revision: 630b0982955a4b4bbc0ee8440739c579544bbd80
     path: 
   unityLifecycle:
-    version: 1.8.2
+    version: 1.9.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1930,7 +1991,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1985,7 +2046,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2039,7 +2100,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2094,7 +2155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2149,7 +2210,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2204,7 +2265,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2263,7 +2324,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2326,7 +2387,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2382,7 +2443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2437,7 +2498,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2492,7 +2553,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2547,7 +2608,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2602,7 +2663,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2657,7 +2718,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2716,7 +2777,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2771,7 +2832,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2834,7 +2895,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2892,7 +2953,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2947,7 +3008,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3014,7 +3075,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3069,7 +3130,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3132,7 +3193,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3187,7 +3248,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3250,7 +3311,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3313,7 +3374,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3376,7 +3437,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3455,7 +3516,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3514,7 +3575,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3581,7 +3642,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3650,7 +3711,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3705,7 +3766,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3772,7 +3833,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3831,7 +3892,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.10
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -3928,12 +3989,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.core-utils@2.2.3
+- packageId: com.unity.xr.core-utils@2.3.0
   testable: 0
   isDirectDependency: 0
-  version: 2.2.3
+  version: 2.3.0
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.xr.core-utils@2.2.3
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.xr.core-utils@2.3.0
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -3970,16 +4031,18 @@ m_ResolvedPackages:
     - 2.2.2
     - 2.2.3
     - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
     compatible:
-    - 2.2.3
-    - 2.3.0-pre.1
+    - 2.3.0
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
-    recommended: 2.2.3
+    recommended: 2.3.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.xr
@@ -4011,16 +4074,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638269927990000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.2/manual/index.html
+  datePublishedTicks: 638411351550000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
-    revision: 334e8977dc25f14d394655c8e77354e4888c35d1
+    revision: ca388cb73dfca7c7e8c46caba82f4d8adfbc82d0
     path: 
   unityLifecycle:
-    version: 2.2.3
+    version: 2.3.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4032,7 +4095,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.sysroot@2.0.5
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.sysroot@2.0.5
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -4068,11 +4131,13 @@ m_ResolvedPackages:
     - 2.0.5
     - 2.0.6
     - 2.0.7
+    - 2.0.10
     compatible:
     - 2.0.5
     - 2.0.6
     - 2.0.7
-    recommended: 2.0.7
+    - 2.0.10
+    recommended: 2.0.10
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4111,7 +4176,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.4
   source: 1
-  resolvedPath: D:\Efe\Projects\VR-Kitchen-Quest\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.4
+  resolvedPath: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Library/PackageCache/com.unity.sysroot.linux-x86_64@2.0.4
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -4144,11 +4209,13 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     - 2.0.6
+    - 2.0.9
     compatible:
     - 2.0.4
     - 2.0.5
     - 2.0.6
-    recommended: 2.0.6
+    - 2.0.9
+    recommended: 2.0.9
     deprecated: []
   dependencies:
   - name: com.unity.sysroot
