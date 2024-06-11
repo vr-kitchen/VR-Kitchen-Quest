@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52189
+50579
 Successfully changed project path to: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest
 /Users/oeo/Documents/Projects/VR-Kitchen22-Quest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/oeo/Documents/Projects/VR-Kitchen22
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8601067008] Host "[IP] 10.10.211.170 [Port] 0 [Flags] 2 [Guid] 3130888256 [EditorId] 3130888256 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8075337216] Host "[IP] 172.21.211.186 [Port] 0 [Flags] 2 [Guid] 1743150181 [EditorId] 1743150181 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8601067008] Host "[IP] 10.10.211.170 [Port] 0 [Flags] 2 [Guid] 3130888256 [EditorId] 3130888256 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8075337216] Host "[IP] 172.21.211.186 [Port] 0 [Flags] 2 [Guid] 1743150181 [EditorId] 1743150181 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
-Refreshing native plugins compatible for Editor in 22.25 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 6.71 ms.
+Refreshing native plugins compatible for Editor in 5.36 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 256.44 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Assets
@@ -73,62 +73,63 @@ Metal devices available: 1
 Using device Apple M1 Max (high power)
 Initializing Metal device caps: Apple M1 Max
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56867
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
-Registered in 0.001651 seconds.
-- Loaded All Assemblies, in  0.238 seconds
+Registered in 0.004491 seconds.
+- Loaded All Assemblies, in  0.245 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for VisionOS target not found
-objc[7867]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x14fec05d8) and /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x14fee85d8). One of the two will be used. Which one is undefined.
+objc[3636]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x2925fc5d8) and /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x29273c5d8). One of the two will be used. Which one is undefined.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 124 ms
+Android Extension - Scanning For ADB Devices 58 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.388 seconds
-Domain Reload Profiling: 626ms
-	BeginReloadAssembly (66ms)
+- Finished resetting the current domain, in  0.309 seconds
+Domain Reload Profiling: 554ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (67ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (64ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (389ms)
+	FinalizeReload (309ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (351ms)
+		SetupLoadedEditorAssemblies (270ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (255ms)
+			InitializePlatformSupportModulesInManaged (179ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (65ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,8 +137,9 @@ Domain Reload Profiling: 626ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.467 seconds
-Refreshing native plugins compatible for Editor in 6.38 ms, found 12 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.477 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 8 plugins.
 Native extension for VisionOS target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -149,6 +151,9 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -156,49 +161,50 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.638 seconds
-Domain Reload Profiling: 1104ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1019ms
+	BeginReloadAssembly (77ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (222ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (242ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (638ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (545ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
+		SetupLoadedEditorAssemblies (412ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
+			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (382ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.79 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 1.23 ms.
-Unloading 5374 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (480.8 KB). Loaded Objects now: 5827.
-Memory consumption went from 263.0 MB to 262.5 MB.
-Total: 4.132166 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.076208 ms MarkObjects: 3.534458 ms  DeleteObjects: 0.312958 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 1.31 ms.
+Unloading 4656 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (284.8 KB). Loaded Objects now: 5107.
+Memory consumption went from 230.8 MB to 230.6 MB.
+Total: 3.612709 ms (FindLiveObjects: 0.149458 ms CreateObjectMapping: 0.057625 ms MarkObjects: 3.197542 ms  DeleteObjects: 0.207500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -215,65 +221,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10958.622736 seconds.
-  path: Assets/Scenes/Workathon/Third Kitchen-Workathon-kahve3.unity
-  artifactKey: Guid(4857b77bd1c99c64e8041b856ea977d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Workathon/Third Kitchen-Workathon-kahve3.unity using Guid(4857b77bd1c99c64e8041b856ea977d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1df726bea87876366a55847c850200b') in 0.001236 seconds
+  Time since last request: 3206.741999 seconds.
+  path: Assets/Scenes/First Ktchn-v9.unity
+  artifactKey: Guid(4c0840339792fa34cb53d8af0fb6aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/First Ktchn-v9.unity using Guid(4c0840339792fa34cb53d8af0fb6aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea95b83334fc00b0f61decdbe6809d12') in 0.001128 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.437067 seconds.
-  path: Assets/oyku/cupboard 2.prefab
-  artifactKey: Guid(60d5925fa86e813429ace26bfb6858ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/cupboard 2.prefab using Guid(60d5925fa86e813429ace26bfb6858ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bd15d24804c7290d7577dafcff6c2c') in 0.351517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/oyku/New Prefab.prefab
-  artifactKey: Guid(b5a2367d10be0954792b5508dfe3ec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/New Prefab.prefab using Guid(b5a2367d10be0954792b5508dfe3ec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdfa158bd63795febcf478811393dc9') in 0.001555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/oyku/Drawer (1).prefab
-  artifactKey: Guid(af43f75feb547f14d9b08c06b5ae4c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/Drawer (1).prefab using Guid(af43f75feb547f14d9b08c06b5ae4c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f964dcc179e38d06d074578bc8a1d98f') in 0.043608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/oyku/cupboard 3.prefab
-  artifactKey: Guid(784b735af55f5394f9cd2d543bbbf7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/cupboard 3.prefab using Guid(784b735af55f5394f9cd2d543bbbf7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1955c688aeb831ae1ffeeba1e71639') in 0.007758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/oyku/cupboard 4.prefab
-  artifactKey: Guid(20c1ea1aea1a31a44bbe6d46900d65a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/cupboard 4.prefab using Guid(20c1ea1aea1a31a44bbe6d46900d65a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eb420363c406b48f8dc59965a2d2dc') in 0.010620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/oyku/kitchen  -ORG.prefab
-  artifactKey: Guid(1111cd37581e7a447892f761decbb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/kitchen  -ORG.prefab using Guid(1111cd37581e7a447892f761decbb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d00187633e7b6a999fdf99bb312fdd1') in 0.143206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 926
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/oyku/ustdolaplar.prefab
-  artifactKey: Guid(972f88c6cc314d3499416f749d9db6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/ustdolaplar.prefab using Guid(972f88c6cc314d3499416f749d9db6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4133427839007dee76f334b1cb6bcc08') in 0.001690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4

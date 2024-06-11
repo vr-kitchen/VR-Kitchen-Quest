@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52189
+50579
 Successfully changed project path to: /Users/oeo/Documents/Projects/VR-Kitchen22-Quest
 /Users/oeo/Documents/Projects/VR-Kitchen22-Quest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/oeo/Documents/Projects/VR-Kitchen22
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8601067008] Host "[IP] 10.10.211.170 [Port] 0 [Flags] 2 [Guid] 1900859827 [EditorId] 1900859827 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8075337216] Host "[IP] 172.21.211.186 [Port] 0 [Flags] 2 [Guid] 2442998271 [EditorId] 2442998271 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8601067008] Host "[IP] 10.10.211.170 [Port] 0 [Flags] 2 [Guid] 1900859827 [EditorId] 1900859827 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8075337216] Host "[IP] 172.21.211.186 [Port] 0 [Flags] 2 [Guid] 2442998271 [EditorId] 2442998271 [Version] 1048832 [Id] OSXEditor(0,OEO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
-Refreshing native plugins compatible for Editor in 8.71 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 7.07 ms.
+Refreshing native plugins compatible for Editor in 26.65 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 427.03 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/oeo/Documents/Projects/VR-Kitchen22-Quest/Assets
@@ -73,62 +73,63 @@ Metal devices available: 1
 Using device Apple M1 Max (high power)
 Initializing Metal device caps: Apple M1 Max
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56865
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56634
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
-Registered in 0.001742 seconds.
-- Loaded All Assemblies, in  0.238 seconds
+Registered in 0.005389 seconds.
+- Loaded All Assemblies, in  0.248 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for VisionOS target not found
-objc[7865]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x2a42a05d8) and /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x2a45605d8). One of the two will be used. Which one is undefined.
+objc[3634]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x17fbac5d8) and /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x17ffe45d8). One of the two will be used. Which one is undefined.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 75 ms
+Android Extension - Scanning For ADB Devices 67 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.342 seconds
-Domain Reload Profiling: 580ms
-	BeginReloadAssembly (48ms)
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 565ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (120ms)
-		LoadAssemblies (47ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (64ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (106ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (102ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (342ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (298ms)
+		SetupLoadedEditorAssemblies (277ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (199ms)
+			InitializePlatformSupportModulesInManaged (189ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (68ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,8 +137,9 @@ Domain Reload Profiling: 580ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.482 seconds
-Refreshing native plugins compatible for Editor in 5.79 ms, found 12 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 3.45 ms, found 8 plugins.
 Native extension for VisionOS target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -149,6 +151,9 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -156,49 +161,50 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.686 seconds
-Domain Reload Profiling: 1168ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (78ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (340ms)
-		LoadAssemblies (206ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (242ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (120ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (686ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (546ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (514ms)
+		SetupLoadedEditorAssemblies (414ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (398ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 7.23 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 1.21 ms.
-Unloading 5374 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (461.0 KB). Loaded Objects now: 5827.
-Memory consumption went from 262.7 MB to 262.3 MB.
-Total: 3.697292 ms (FindLiveObjects: 0.179459 ms CreateObjectMapping: 0.063250 ms MarkObjects: 3.178125 ms  DeleteObjects: 0.275833 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.17 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 2.84 ms.
+Unloading 4656 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (285.0 KB). Loaded Objects now: 5107.
+Memory consumption went from 230.8 MB to 230.5 MB.
+Total: 3.602541 ms (FindLiveObjects: 0.154500 ms CreateObjectMapping: 0.055834 ms MarkObjects: 3.161750 ms  DeleteObjects: 0.229625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -215,43 +221,225 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10970.063950 seconds.
-  path: Assets/oyku/cupboard.prefab
-  artifactKey: Guid(8bbb46f2e352f494991838c756743b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/cupboard.prefab using Guid(8bbb46f2e352f494991838c756743b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eeb539e139f981aece6212cc214c9ea') in 0.351530 seconds
+  Time since last request: 3414.522514 seconds.
+  path: Assets/0Build/1st Kitchn Room/Cleaner version-efe3.fbx
+  artifactKey: Guid(f9a040c6e1a037b4dbe5d98435a7d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/1st Kitchn Room/Cleaner version-efe3.fbx using Guid(f9a040c6e1a037b4dbe5d98435a7d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ed5223e38c94a3c7c57667e12e823d') in 0.572359 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
+Number of asset objects unloaded after import = 837
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/oyku/cupboard 5.prefab
-  artifactKey: Guid(726d3b25da323af449a5d744ed3f07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/cupboard 5.prefab using Guid(726d3b25da323af449a5d744ed3f07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582a07712c95a11d2faab0150528dea3') in 0.009555 seconds
+  Time since last request: 4.384110 seconds.
+  path: Assets/0Build/1st Kitchn Room/cleaner version-efe3.ma
+  artifactKey: Guid(3d6c6d54ef2d32747b69a0eee581711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/1st Kitchn Room/cleaner version-efe3.ma using Guid(3d6c6d54ef2d32747b69a0eee581711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21aa116d545bb3c4ace29f9dc32624ab') in 0.501660 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
+Number of asset objects unloaded after import = 837
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/oyku/cupboard 6.prefab
-  artifactKey: Guid(5ca64bc80e3df794fa133130e0b156c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/cupboard 6.prefab using Guid(5ca64bc80e3df794fa133130e0b156c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a740630a324b0f1356b9606a1899ed') in 0.006251 seconds
+  Time since last request: 1.029202 seconds.
+  path: Assets/0Build/1st Kitchn Room/big-ward.obj
+  artifactKey: Guid(787da2e7f68f9db43b074e4b75d1f6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/1st Kitchn Room/big-ward.obj using Guid(787da2e7f68f9db43b074e4b75d1f6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefc238ec230e7f5355ca2247036a075') in 0.085837 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
+Number of asset objects unloaded after import = 58
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/oyku/DoorWithHandle 1.prefab
-  artifactKey: Guid(b9f6c587aa79ab3478b5d4ef227abc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/DoorWithHandle 1.prefab using Guid(b9f6c587aa79ab3478b5d4ef227abc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7893dc414f75a2af1781ff18aec0239') in 0.045859 seconds
+  Time since last request: 24.606575 seconds.
+  path: Assets/Scenes/Second Ktchn-v2.unity
+  artifactKey: Guid(ac2f3837cd25e2a499e37f6a9e24d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Second Ktchn-v2.unity using Guid(ac2f3837cd25e2a499e37f6a9e24d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efd8c15d2baad98419a228d198ddcd2') in 0.000352 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
+  Time since last request: 24.739139 seconds.
+  path: Assets/Scenes/Welcome-Scene
+  artifactKey: Guid(94b4b1e48a53a6d42bab3bf1fe66adcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Welcome-Scene using Guid(94b4b1e48a53a6d42bab3bf1fe66adcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e42c74e740c6c7172676ad5cb1e7dc') in 0.000372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.885537 seconds.
+  path: Assets/Scenes/Welcome-Scene.unity
+  artifactKey: Guid(4f9dc823e9b3f394da420f9b8d60f3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Welcome-Scene.unity using Guid(4f9dc823e9b3f394da420f9b8d60f3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9de01e97bd73917b5e1088ff7b28189') in 0.000306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.264494 seconds.
+  path: Assets/0Mat/Ultimate 10 Plus Shaders/Materials/Textures/rock.png
+  artifactKey: Guid(1d557bc533f5684438d25d03042b1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Mat/Ultimate 10 Plus Shaders/Materials/Textures/rock.png using Guid(1d557bc533f5684438d25d03042b1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ded5e96530db7be7b5e9434f533051') in 0.017892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 58.990841 seconds.
+  path: Assets/0Build/Welcome Scene Models/welcomingscene_sc.fbx
+  artifactKey: Guid(da3300dfd201746fcad802e30a2965bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/welcomingscene_sc.fbx using Guid(da3300dfd201746fcad802e30a2965bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d25c16c513de9703a6dbdce9cc8f6e5') in 0.399256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 483
+========================================================================
+Received Import Request.
+  Time since last request: 11.387494 seconds.
+  path: Assets/0Build/Welcome Scene Models/welcomingboard_sc kopyası_bugggg.fbx
+  artifactKey: Guid(4988ab3af3c2141f78c073a20e128481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/welcomingboard_sc kopyası_bugggg.fbx using Guid(4988ab3af3c2141f78c073a20e128481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a5f1acec8078e78d7d5d8e6f24f185') in 0.291311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 2.032307 seconds.
+  path: Assets/0Build/Welcome Scene Models/yuvarlak masa.fbx
+  artifactKey: Guid(d5d519e24aeab4525b1e76e31d38075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/yuvarlak masa.fbx using Guid(d5d519e24aeab4525b1e76e31d38075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb0957e11b2fc51bb75bcc9543676a1') in 0.060475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 38.786300 seconds.
+  path: Assets/0Build/Welcome Scene Models/SUT.prefab
+  artifactKey: Guid(6af29a1b035b5f44aad86c1e39c3edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/SUT.prefab using Guid(6af29a1b035b5f44aad86c1e39c3edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19770eeb818e631b8fd3d636f2ccae4') in 0.008948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 3.996495 seconds.
+  path: Assets/0Build/Welcome Scene Models/Skeleton.prefab
+  artifactKey: Guid(e71a8bee1e8592541af26cbd86e33373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/Skeleton.prefab using Guid(e71a8bee1e8592541af26cbd86e33373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b954f7d8f51c963e288956ccf31008') in 0.021132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 244
+========================================================================
+Received Import Request.
+  Time since last request: 0.116592 seconds.
+  path: Assets/0Build/Welcome Scene Models/muz_deneme1.prefab
+  artifactKey: Guid(1cd87e1c81d7c52408407c9ae7b64f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/muz_deneme1.prefab using Guid(1cd87e1c81d7c52408407c9ae7b64f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd538456504f01cef3e668c9513a2f49') in 0.006502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.115028 seconds.
+  path: Assets/0Build/Welcome Scene Models/meyve_sepeti.prefab
+  artifactKey: Guid(2a4af43ada2496c478751cc58fc250ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/meyve_sepeti.prefab using Guid(2a4af43ada2496c478751cc58fc250ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43bfa0af786e1497f9891d294ffd4df') in 0.004756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.135486 seconds.
+  path: Assets/0Build/Welcome Scene Models/kasar.prefab
+  artifactKey: Guid(b1e9e65ce8cdcc949b9a4021062e2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/kasar.prefab using Guid(b1e9e65ce8cdcc949b9a4021062e2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddecfb9ec9f3f1c009a155d5e10d656f') in 0.008042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.539159 seconds.
+  path: Assets/0Build/Welcome Scene Models/elma_deneme2.prefab
+  artifactKey: Guid(9d7f8140c66ab5c4ebe9fda869ded7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/elma_deneme2.prefab using Guid(9d7f8140c66ab5c4ebe9fda869ded7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96acf32e9d0ae7ea1601a7ca5f5d5604') in 0.007062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.131446 seconds.
+  path: Assets/0Build/Welcome Scene Models/elma_canvas.prefab
+  artifactKey: Guid(49f118ef272369a4aa382074879341d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/elma_canvas.prefab using Guid(49f118ef272369a4aa382074879341d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb1878582baf179c7e8a7f9c85dea5a') in 0.003138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.117145 seconds.
+  path: Assets/0Build/Welcome Scene Models/elma_canvas.prefab
+  artifactKey: Guid(49f118ef272369a4aa382074879341d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/elma_canvas.prefab using Guid(49f118ef272369a4aa382074879341d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234bf63c85f1bcd10c0742f9dd66c250') in 0.001857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.425112 seconds.
+  path: Assets/0Build/Welcome Scene Models/chair.fbx
+  artifactKey: Guid(1e1e447a8047a4adc911ccaf713a3755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/chair.fbx using Guid(1e1e447a8047a4adc911ccaf713a3755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef97e19293c8047e01d383af460c33a7') in 0.019264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.099118 seconds.
+  path: Assets/0Build/Welcome Scene Models/cekmece+canvas.prefab
+  artifactKey: Guid(f070d2c8cef129749a3b8d2cad4dc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/cekmece+canvas.prefab using Guid(f070d2c8cef129749a3b8d2cad4dc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0407e386acc8ddc8853454e4105f1ed') in 0.001334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.076117 seconds.
+  path: Assets/0Build/Welcome Scene Models/cekmece+canvas.prefab
+  artifactKey: Guid(f070d2c8cef129749a3b8d2cad4dc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/cekmece+canvas.prefab using Guid(f070d2c8cef129749a3b8d2cad4dc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c7de27e331ece7f442ba3e8fbbc042') in 0.001334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.067603 seconds.
+  path: Assets/0Build/Welcome Scene Models/black_floor_metal_MET 1.png
+  artifactKey: Guid(35f34ca9eeb5be04a8812499ef265602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/black_floor_metal_MET 1.png using Guid(35f34ca9eeb5be04a8812499ef265602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc8c2e85a2f6116665e0c5975851a4d') in 0.004493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.112913 seconds.
+  path: Assets/0Build/Welcome Scene Models/baslangicekrani.fbx
+  artifactKey: Guid(5e057d55548934b4aa92dbafc580fab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/baslangicekrani.fbx using Guid(5e057d55548934b4aa92dbafc580fab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d3260916204bcabb983dc20533f672') in 0.133706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.002877 seconds.
+  path: Assets/0Build/Welcome Scene Models/basardın_elma.prefab
+  artifactKey: Guid(664c2dbbebb769643842bb660fb3c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/basardın_elma.prefab using Guid(664c2dbbebb769643842bb660fb3c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11d4972b72473bd9de71fb6e6b7a50e') in 0.001488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.068331 seconds.
+  path: Assets/0Build/Welcome Scene Models/basardın_elma.prefab
+  artifactKey: Guid(664c2dbbebb769643842bb660fb3c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models/basardın_elma.prefab using Guid(664c2dbbebb769643842bb660fb3c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76e75f8d500db7018b2750e05e50a1e') in 0.001667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 18.665431 seconds.
+  path: Assets/0Build/Welcome Scene Models
+  artifactKey: Guid(98ced39d7ce2243a5ae5d2cfab540656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Build/Welcome Scene Models using Guid(98ced39d7ce2243a5ae5d2cfab540656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93296940aa9a4d58676a56532b05611f') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.112335 seconds.
   path: Assets/oyku/FirstKitchen-Mutfak.prefab
   artifactKey: Guid(80f8675b5c6d68c4eb015e136ac02505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/oyku/FirstKitchen-Mutfak.prefab using Guid(80f8675b5c6d68c4eb015e136ac02505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 9.74 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 1.50 ms.
- -> (artifact id: '61b763ed23bb0a903d7db51dbfbc7774') in 2.290100 seconds
+Start importing Assets/oyku/FirstKitchen-Mutfak.prefab using Guid(80f8675b5c6d68c4eb015e136ac02505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c31c772dd5ee54581d789ba08652014') in 0.483038 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3291
+Number of asset objects unloaded after import = 3145
+========================================================================
+Received Import Request.
+  Time since last request: 2.213488 seconds.
+  path: Assets/oyku/FirsrKitch-Test.unity
+  artifactKey: Guid(86d2b4c945fe04847a4085ad284f6c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oyku/FirsrKitch-Test.unity using Guid(86d2b4c945fe04847a4085ad284f6c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652f0168185b366947dc31930481cbad') in 0.001795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEditor;
-using UnityEditor.UI;
+using UnityEngine.UI;
 
 public class PromptMakeup : MonoBehaviour
 {
