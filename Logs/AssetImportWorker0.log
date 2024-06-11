@@ -443,3 +443,11 @@ Received Import Request.
 Start importing Assets/oyku/FirsrKitch-Test.unity using Guid(86d2b4c945fe04847a4085ad284f6c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652f0168185b366947dc31930481cbad') in 0.001795 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 724.187470 seconds.
+  path: Assets/oyku/kitchen  -ORG.prefab
+  artifactKey: Guid(1111cd37581e7a447892f761decbb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oyku/kitchen  -ORG.prefab using Guid(1111cd37581e7a447892f761decbb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e5c5063d71d23d970636fcbcf3701f') in 0.033165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 922
