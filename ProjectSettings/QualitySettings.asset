@@ -57,7 +57,7 @@ QualitySettings:
     excludedTargetPlatforms: []
   - serializedVersion: 3
     name: Quest
-    pixelLightCount: 3
+    pixelLightCount: 8
     shadows: 0
     shadowResolution: 0
     shadowProjection: 1

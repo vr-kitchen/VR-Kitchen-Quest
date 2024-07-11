@@ -222,7 +222,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.BeardedNinjaGames.VRInteractionFramework
+    Android: com.DefaultCompany.KitchenVRv35
     Standalone: com.DefaultCompany.Kitchen-VR-v3-5
   buildNumber:
     Standalone: 0
