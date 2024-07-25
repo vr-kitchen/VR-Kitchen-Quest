@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Valve.VR.InteractionSystem;
+//**//  using Valve.VR.InteractionSystem;
 
 public class haznelock : MonoBehaviour
 {
@@ -12,12 +12,6 @@ public class haznelock : MonoBehaviour
     void Start()
     {
         clip = this.GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void OnTriggerEnter(Collider other)

@@ -10,8 +10,8 @@ using UnityEditor.Events;
 
 public class FridgeSwitch : MonoBehaviour
 {
-  public VRInputModule inputscript;
-  public GameObject[] Fridges; //array of fridges to visible/nonvisible
+    //**//  public VRInputModule inputscript;
+    public GameObject[] Fridges; //array of fridges to visible/nonvisible
   //public GameObject[] ActiveFridge;
   public int ActiveFridge; //th array number of active fridge
   //public RectTransform thecanvas; //canvas reference
@@ -288,19 +288,19 @@ public class FridgeSwitch : MonoBehaviour
         bool stat = !TrayAdjStatus;
         if (pocket!=null)
         {
-           // print(TrayAdjStatus + "TrayAdjStatus  ->" + stat);
-           // print(pocket.Length + "pocket length");
+            // print(TrayAdjStatus + "TrayAdjStatus  ->" + stat);
+            // print(pocket.Length + "pocket length");
 
 
-            for (int i = 0; i < pocket.Length; i++)
-            {
-                if(pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>())
-                     pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>().enabled=stat;
-                /*else if(pocket[i].GetComponent<MeshCollider>())
-                {
-                    pocket[i].GetComponent<MeshCollider>().enabled = stat;
-                }*/
-            }
+            //**//   for (int i = 0; i < pocket.Length; i++)
+            //**//   {
+            //**//       if(pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>())
+            //**//            pocket[i].GetComponent<Valve.VR.InteractionSystem.Interactable>().enabled=stat;
+            //**//       /*else if(pocket[i].GetComponent<MeshCollider>())
+            //**//       {
+            //**//           pocket[i].GetComponent<MeshCollider>().enabled = stat;
+            //**//       }*/
+            //**//   }
         }
         if (stat)
             Fridges[ActiveFridge].transform.Find("firstdoor").transform.Rotate(0.0f, -125.0f, 0.0f, Space.Self);
