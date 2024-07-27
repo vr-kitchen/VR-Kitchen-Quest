@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 using UnityEngine.Events;
-using UnityEditor.Events;
+//**//  using UnityEditor.Events;
 
 public class FridgeSwitch : MonoBehaviour
 {
@@ -147,8 +147,8 @@ public class FridgeSwitch : MonoBehaviour
             // assign clickevent for each sub material button
 
             UnityAction<GameObject> action = new UnityAction<GameObject>(SwMaterial);
-            UnityEventTools.AddObjectPersistentListener<GameObject>(btn.onClick, action, matbuttons[i]);
-           
+       //**//  UnityEventTools.AddObjectPersistentListener<GameObject>(btn.onClick, action, matbuttons[i]);
+
 
         }//end of for
 
@@ -157,7 +157,7 @@ public class FridgeSwitch : MonoBehaviour
         // print("the very famous eventdata:");
         // print(eventsystem.GetData());
         // eventsystem.ResetData();
-     fademainmenu("changemat");
+        fademainmenu("changemat");
     }//end of function
 
 
@@ -221,10 +221,10 @@ public class FridgeSwitch : MonoBehaviour
             //    public void SwitchFridge(int choosen)
 
             UnityAction<GameObject> action = new UnityAction<GameObject>(SwitchFridge);
-            UnityEventTools.AddObjectPersistentListener<GameObject>(buttons[i].onClick, action, Fridges[i]);
+        //**//  UnityEventTools.AddObjectPersistentListener<GameObject>(buttons[i].onClick, action, Fridges[i]);
 
         }//end of for
-    fademainmenu("changemodel");
+        fademainmenu("changemodel");
     }
 
 
