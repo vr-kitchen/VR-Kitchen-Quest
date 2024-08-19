@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/oyku/test sahnesi-efe2.unity
-    guid: 56ef646df402b3647b70894713bedaaf
+    path: Assets/Scenes/First Ktchn-zs-lite-v3.unity
+    guid: 68714544c574a45a38143cafdaa93828
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9c6a2bfc19349db49892e7108992ae37,
       type: 2}
