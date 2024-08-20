@@ -23,11 +23,11 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp/bin/Debug/</OutputPath>
-    <DefineConstants>UNITY_2022_3_19;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_19;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;FUSION_WEAVER;FUSION2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -36,7 +36,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -60,14 +60,75 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/0Othr/SteamAudio/ComputeDevice.cs" />
+    <Compile Include="Assets/Scripts/Deprecated/swithLight.cs" />
+    <Compile Include="Assets/Scripts/FridgeSwitch.cs" />
+    <Compile Include="Assets/MagicMirror/Prefab/MirrorCameraScript.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SimulationSettingsPresetList.cs" />
+    <Compile Include="Assets/Scripts/WelcomeFirstComerTracker.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineSource_Unity.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SceneExporter.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineAmbisonicsSource.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineState.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/MagicMirror/Prefab/MirrorScript.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioGeometry.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+    <Compile Include="Assets/PromptCanvasModeSwitch.cs" />
+    <Compile Include="Assets/0Mat/Ultimate 10 Plus Shaders/Scripts/U10PS_ExampleReview.cs" />
+    <Compile Include="Assets/0Othr/Realistic Drone/drone/Level0_Stabilizing/rotor.cs" />
+    <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/GameEngineState.cs" />
+    <Compile Include="Assets/ProceduralUIImage/Scripts/EmptySprite.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SimulationSettingsPreset.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/ProbeManager.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/Version.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/RayTracer.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioCustomSpeakerLayout.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/Scripts/sıfırla.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioManager.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineAmbisonicsSourceFactory.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/Scripts/PlayerDistanceCheck.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/OnlyOneEdgeModifier.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/MaterialPreset.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/AudioEngine.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioSource.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/Scripts/Deprecated/showController.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/Core.cs" />
+    <Compile Include="Assets/Scripts/menuanim.cs" />
+    <Compile Include="Assets/ProceduralUIImage/Scripts/Attributes/ModifierID.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/Scripts/randomMovement.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/Environment.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioAmbisonicsSource.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioCustomSettings.cs" />
+    <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImage.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/0Othr/Realistic Drone/lookAt.cs" />
+    <Compile Include="Assets/Scripts/nearToObject.cs" />
+    <Compile Include="Assets/Zebra/UIElements/PromptMakeup.cs" />
+    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineSourceFactory.cs" />
+    <Compile Include="Assets/0Mat/Ultimate 10 Plus Shaders/Scripts/U10PS_DissolveOverTime.cs" />
+    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
+    <Compile Include="Assets/Scripts/onboardinganimcont.cs" />
     <Compile Include="Assets/Zurafa/NotificationHandler.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/UniformModifier.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/AudioEngineSource.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/ComputeDevice.cs" />
-    <Compile Include="Assets/Scripts/Deprecated/swithLight.cs" />
-    <Compile Include="Assets/Scripts/FridgeSwitch.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/AudioEngineStateFactory.cs" />
@@ -76,120 +137,64 @@
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImageModifier.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/MagicMirror/Demo/DemoScript.cs" />
     <Compile Include="Assets/Scripts/davlunbazfunctions.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/AudioEngineState_Unity.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SimulationSettingsPresetList.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
-    <Compile Include="Assets/Scripts/WelcomeFirstComerTracker.cs" />
     <Compile Include="Assets/Scripts/onboardingefe.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/SteamAudioListener.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineSource_Unity.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SceneExporter.cs" />
     <Compile Include="Assets/0Othr/Realistic Drone/cameraBehaviour.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineAmbisonicsSource.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/ComponentCache.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineState.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/0Mat/Ultimate 10 Plus Shaders/Scripts/U10PS_SnowOverTime.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioGeometry.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/SteamAudioProbeBox.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
-    <Compile Include="Assets/PromptCanvasModeSwitch.cs" />
-    <Compile Include="Assets/0Mat/Ultimate 10 Plus Shaders/Scripts/U10PS_ExampleReview.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
-    <Compile Include="Assets/0Othr/Realistic Drone/drone/Level0_Stabilizing/rotor.cs" />
     <Compile Include="Assets/Scripts/WelcomeScreenWizard.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/RoundModifier.cs" />
-    <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/ManagerData.cs" />
     <Compile Include="Assets/Zurafa/MyTriggerEvents.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/GameEngineState.cs" />
     <Compile Include="Assets/Scripts/drive_onboarding.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/SteamAudioMaterial.cs" />
-    <Compile Include="Assets/ProceduralUIImage/Scripts/EmptySprite.cs" />
     <Compile Include="Assets/Scripts/onboarding.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/Scene.cs" />
     <Compile Include="Assets/Scripts/MaterialSelection.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/Core_Unity.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SimulationSettingsPreset.cs" />
     <Compile Include="Assets/Scripts/Deprecated/pointline.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/ProbeManager.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/CustomPremadeModifier.cs" />
     <Compile Include="Assets/Zebra/haznelock.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/Version.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/RayTracer.cs" />
     <Compile Include="Assets/Scripts/toggleGameOBJ.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioCustomSpeakerLayout.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/Scripts/toggleswitch.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/MaterialPresetList.cs" />
     <Compile Include="Assets/Scripts/Deprecated/VRInputModule.cs" />
     <Compile Include="Assets/Scripts/CameraFollow.cs" />
-    <Compile Include="Assets/Scripts/sıfırla.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/SteamAudioBakedStaticListenerNode.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioManager.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineAmbisonicsSourceFactory.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/Baker.cs" />
     <Compile Include="Assets/Scripts/NewBehaviourScript.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
-    <Compile Include="Assets/Scripts/PlayerDistanceCheck.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/Scripts/SceneLoad.cs" />
-    <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/OnlyOneEdgeModifier.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/0Mat/Ultimate 10 Plus Shaders/Scripts/U10PS_MouseRotation.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/Common.cs" />
     <Compile Include="Assets/Zebra/UIElements/SpawnPrompt.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/MaterialPreset.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/AudioEngine.cs" />
     <Compile Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Plexus/Plexus.cs" />
     <Compile Include="Assets/Scripts/elma.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioSource.cs" />
-    <Compile Include="Assets/Scripts/Deprecated/showController.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/Core.cs" />
-    <Compile Include="Assets/Scripts/menuanim.cs" />
-    <Compile Include="Assets/ProceduralUIImage/Scripts/Attributes/ModifierID.cs" />
     <Compile Include="Assets/PromptEngine.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Zurafa/filtrekontrol.cs" />
-    <Compile Include="Assets/Scripts/randomMovement.cs" />
     <Compile Include="Assets/0Othr/Realistic Drone/screen.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/Environment.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioAmbisonicsSource.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/SteamAudioCustomSettings.cs" />
-    <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImage.cs" />
     <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets/0Othr/Realistic Drone/lookAt.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/AudioEngineAmbisonicsSource_Unity.cs" />
     <Compile Include="Assets/Scripts/perspectiveanimcont.cs" />
-    <Compile Include="Assets/Scripts/nearToObject.cs" />
-    <Compile Include="Assets/Zebra/UIElements/PromptMakeup.cs" />
-    <Compile Include="Assets/0Othr/SteamAudio/AudioEngineSourceFactory.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/SimulationSettingsValue.cs" />
     <Compile Include="Assets/0Othr/SteamAudio/MaterialValue.cs" />
-    <Compile Include="Assets/0Mat/Ultimate 10 Plus Shaders/Scripts/U10PS_DissolveOverTime.cs" />
-    <Compile Include="Assets/0Othr/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
-    <Compile Include="Assets/Scripts/onboardinganimcont.cs" />
+    <Compile Include="Assets/MagicMirror/Prefab/MirrorReflectionScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/0Mat/WorldMaterialsFree/WorldMatLiteFree.shader" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Edge Detection.shader" />
@@ -197,40 +202,66 @@
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Blur.shader" />
     <None Include="Assets/0Mat/WorldMaterialsFree-0/WorldMatFree.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/MagicMirror/Prefab/Readme.txt" />
     <None Include="Assets/0Sky/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Realtime.xml" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Plexus/Plexus.compute" />
     <None Include="Assets/0Othr/OBJ Assets/Kitchen Asset/README.txt" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Common.dll" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Runtime.xml" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Static/NanoSockets.dll" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Log.dll" />
+    <None Include="Assets/MagicMirror/Prefab/MirrorShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll" />
+    <None Include="Assets/MagicMirror/Prefab/MirrorShaderBumpMap.shader" />
     <None Include="Assets/ProceduralUIImage/Resources/Shaders/ProceduralImageRuntime.shader" />
+    <None Include="Assets/Photon/Fusion/release_history.txt" />
     <None Include="Assets/0Sky/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic/NanoSockets.dll" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Depth Mask Edge Detection.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/Metro/NanoSockets.dll" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Ocean.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Dissolve.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/Photon/PhotonLibs/changes-library.txt" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/MagicMirror/Prefab/MirrorShaderOld.shader" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Plasma.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x64/libnanosockets.dll" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Outline.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x86/libnanosockets.dll" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Plexus/Plexus Line.shader" />
+    <None Include="Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Snow.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Lava3D.shader" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Force Field.shader" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/Windows/nanosockets.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/Photon/Fusion/build_info.txt" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM64/libnanosockets.dll" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/WebGL/NanoSockets.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/0Mat/Ultimate 10 Plus Shaders/Shaders/Simple Sine Wave.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Common.xml" />
+    <None Include="Assets/Photon/Fusion/Assemblies/Fusion.Sockets.xml" />
     <None Include="Assets/0Othr/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM/libnanosockets.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
   </ItemGroup>
@@ -555,8 +586,48 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Common">
+      <HintPath>Assets/Photon/Fusion/Assemblies/Fusion.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NanoSockets">
+      <HintPath>Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic/NanoSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Sockets">
+      <HintPath>Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Runtime">
+      <HintPath>Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@1.10.2/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Realtime">
+      <HintPath>Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Log">
+      <HintPath>Assets/Photon/Fusion/Assemblies/Fusion.Log.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -1091,6 +1162,202 @@
       <HintPath>Library/ScriptAssemblies/Meta.XR.Editor.PlayCompanion.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="meta.xr.mrutilitykit.editor">
+      <HintPath>Library/ScriptAssemblies/meta.xr.mrutilitykit.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.Editor.Tags">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.Editor.Tags.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.Editor.UserInterface">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.Editor.UserInterface.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Networking.Transport">
+      <HintPath>Library/ScriptAssemblies/Unity.Networking.Transport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.TransformCapture">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.TransformCapture.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetaXrSimulator.Editor">
+      <HintPath>Library/ScriptAssemblies/MetaXrSimulator.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.AvatarSDK2.SampleAssets.Editor">
+      <HintPath>Library/ScriptAssemblies/Oculus.AvatarSDK2.SampleAssets.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Relay">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Relay.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Wit.Composer.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.Wit.Composer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Platform.Editor">
+      <HintPath>Library/ScriptAssemblies/Oculus.Platform.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Interaction.OVR.Editor">
+      <HintPath>Library/ScriptAssemblies/Oculus.Interaction.OVR.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.Rendering.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Rendering.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VoiceSDK.Dictation.Runtime">
+      <HintPath>Library/ScriptAssemblies/VoiceSDK.Dictation.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.MultiplayerBlocks.Shared.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VoiceSDK.Telemetry">
+      <HintPath>Library/ScriptAssemblies/VoiceSDK.Telemetry.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.AvatarSDK2.Editor">
+      <HintPath>Library/ScriptAssemblies/Oculus.AvatarSDK2.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.VR.Editor">
+      <HintPath>Library/ScriptAssemblies/Oculus.VR.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.WitAi">
+      <HintPath>Library/ScriptAssemblies/Meta.WitAi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.VirtualCamera">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.VirtualCamera.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.Audio.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.Audio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Net.endel.nativewebsocket">
+      <HintPath>Library/ScriptAssemblies/Meta.Net.endel.nativewebsocket.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.WitAi.TTS.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.WitAi.TTS.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Interaction.OVR.Samples">
+      <HintPath>Library/ScriptAssemblies/Oculus.Interaction.OVR.Samples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Platform">
+      <HintPath>Library/ScriptAssemblies/Oculus.Platform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Voice.Hub.Runtime">
+      <HintPath>Library/ScriptAssemblies/Meta.Voice.Hub.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.EnvironmentDepth.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.EnvironmentDepth.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.VoiceSDK.Mic.WebGL">
+      <HintPath>Library/ScriptAssemblies/Meta.VoiceSDK.Mic.WebGL.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.MultiplayerBlocks.Fusion">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Fusion.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.CompanionApp">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.CompanionApp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.Ntp.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Ntp.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.Audio">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.Audio.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.WitAI.Lib.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.WitAI.Lib.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.ARKitFaceCapture.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.ARKitFaceCapture.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.VR">
+      <HintPath>Library/ScriptAssemblies/Oculus.VR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AssistantCoreSDKRuntime">
+      <HintPath>Library/ScriptAssemblies/AssistantCoreSDKRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.XR.Management">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
       <Private>False</Private>
@@ -1119,14 +1386,6 @@
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="meta.xr.mrutilitykit.editor">
-      <HintPath>Library/ScriptAssemblies/meta.xr.mrutilitykit.editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.XR.Editor.Tags">
-      <HintPath>Library/ScriptAssemblies/Meta.XR.Editor.Tags.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Meta.WitAi.Conduit">
       <HintPath>Library/ScriptAssemblies/Meta.WitAi.Conduit.dll</HintPath>
       <Private>False</Private>
@@ -1147,16 +1406,12 @@
       <HintPath>Library/ScriptAssemblies/Oculus.Interaction.Samples.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Meta.XR.Editor.UserInterface">
-      <HintPath>Library/ScriptAssemblies/Meta.XR.Editor.UserInterface.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.LiveCapture.TransformCapture">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.TransformCapture.dll</HintPath>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VoiceSDK.Dictation.Editor">
@@ -1175,12 +1430,8 @@
       <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.ARKitFaceCapture.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="MetaXrSimulator.Editor">
-      <HintPath>Library/ScriptAssemblies/MetaXrSimulator.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.Wit.Composer.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.Wit.Composer.Editor.dll</HintPath>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
@@ -1199,20 +1450,12 @@
       <HintPath>Library/ScriptAssemblies/Oculus.Interaction.InterfaceSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.LiveCapture">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Oculus.VR.Scripts.Editor">
       <HintPath>Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Oculus.Interaction.OVR">
       <HintPath>Library/ScriptAssemblies/Oculus.Interaction.OVR.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Oculus.Platform.Editor">
-      <HintPath>Library/ScriptAssemblies/Oculus.Platform.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.VoiceSDK.Mic.Other">
@@ -1223,44 +1466,20 @@
       <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Mocap.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.WitAi.Conduit.Editor">
       <HintPath>Library/ScriptAssemblies/Meta.WitAi.Conduit.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.LiveCapture.Rendering.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Rendering.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Oculus.Interaction.OVR.Editor">
-      <HintPath>Library/ScriptAssemblies/Oculus.Interaction.OVR.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-      <HintPath>Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.LiveCapture.Ltc.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Ltc.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.XR.MultiplayerBlocks.Shared.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Oculus.Interaction">
@@ -1275,48 +1494,24 @@
       <HintPath>Library/ScriptAssemblies/Meta.XR.BuildingBlocks.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VoiceSDK.Telemetry">
-      <HintPath>Library/ScriptAssemblies/VoiceSDK.Telemetry.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="VoiceSDK.Dictation.Runtime">
-      <HintPath>Library/ScriptAssemblies/VoiceSDK.Dictation.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Oculus.VR.Editor">
-      <HintPath>Library/ScriptAssemblies/Oculus.VR.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.WitAi">
-      <HintPath>Library/ScriptAssemblies/Meta.WitAi.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.LiveCapture.VirtualCamera">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.VirtualCamera.dll</HintPath>
+    <Reference Include="Meta.Voice.VSDKHub.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.Voice.VSDKHub.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.WitAi.Editor">
       <HintPath>Library/ScriptAssemblies/Meta.WitAi.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Oculus.Haptics">
-      <HintPath>Library/ScriptAssemblies/Oculus.Haptics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Sysroot.Linux_x86_64">
       <HintPath>Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Meta.XR.Audio.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.XR.Audio.Editor.dll</HintPath>
+    <Reference Include="Oculus.Haptics">
+      <HintPath>Library/ScriptAssemblies/Oculus.Haptics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.LiveCapture.VirtualCamera.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.VirtualCamera.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.Voice.VSDKHub.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.Voice.VSDKHub.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VoiceSDK.Editor">
@@ -1327,28 +1522,20 @@
       <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Meta.Net.endel.nativewebsocket">
-      <HintPath>Library/ScriptAssemblies/Meta.Net.endel.nativewebsocket.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.011">
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.011.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.WitAi.TTS.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.WitAi.TTS.Editor.dll</HintPath>
+    <Reference Include="meta.xr.mrutilitykit">
+      <HintPath>Library/ScriptAssemblies/meta.xr.mrutilitykit.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="meta.xr.mrutilitykit">
-      <HintPath>Library/ScriptAssemblies/meta.xr.mrutilitykit.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.LiveCapture.Ntp">
@@ -1359,28 +1546,16 @@
       <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Oculus.Interaction.OVR.Samples">
-      <HintPath>Library/ScriptAssemblies/Oculus.Interaction.OVR.Samples.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.Services.QoS">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.QoS.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.LiveCapture.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Editor.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
@@ -1393,14 +1568,6 @@
     </Reference>
     <Reference Include="Meta.WitAi.Lib">
       <HintPath>Library/ScriptAssemblies/Meta.WitAi.Lib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Oculus.Platform">
-      <HintPath>Library/ScriptAssemblies/Oculus.Platform.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.Voice.Hub.Runtime">
-      <HintPath>Library/ScriptAssemblies/Meta.Voice.Hub.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.XR.MultiplayerBlocks.Shared">
@@ -1423,16 +1590,8 @@
       <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Meta.WitAi.TTS">
       <HintPath>Library/ScriptAssemblies/Meta.WitAi.TTS.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.XR.EnvironmentDepth.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.XR.EnvironmentDepth.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
@@ -1441,10 +1600,6 @@
     </Reference>
     <Reference Include="Meta.Wit.Composer">
       <HintPath>Library/ScriptAssemblies/Meta.Wit.Composer.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.VoiceSDK.Mic.WebGL">
-      <HintPath>Library/ScriptAssemblies/Meta.VoiceSDK.Mic.WebGL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Oculus.Interaction.Editor">
@@ -1459,44 +1614,32 @@
       <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Mocap.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.LiveCapture.CompanionApp">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.CompanionApp.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.LiveCapture.Ntp.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.Ntp.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.XR.BuildingBlocks.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.XR.BuildingBlocks.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.XR.Audio">
-      <HintPath>Library/ScriptAssemblies/Meta.XR.Audio.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meta.WitAI.Lib.Editor">
-      <HintPath>Library/ScriptAssemblies/Meta.WitAI.Lib.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.LiveCapture.TransformCapture.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.TransformCapture.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Oculus.Interaction.Samples">
       <HintPath>Library/ScriptAssemblies/Oculus.Interaction.Samples.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.LiveCapture.ARKitFaceCapture.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.ARKitFaceCapture.Editor.dll</HintPath>
+    <Reference Include="Unity.Services.Authentication">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Authentication.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.BuildingBlocks.Editor">
+      <HintPath>Library/ScriptAssemblies/Meta.XR.BuildingBlocks.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.LiveCapture.TransformCapture.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.TransformCapture.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Networking.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Networking.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -1523,16 +1666,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.LiveCapture.VideoStreaming.Server.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Oculus.VR">
-      <HintPath>Library/ScriptAssemblies/Oculus.VR.dll</HintPath>
+    <Reference Include="Oculus.AvatarSDK2">
+      <HintPath>Library/ScriptAssemblies/Oculus.AvatarSDK2.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VoiceSDK.Runtime">
       <HintPath>Library/ScriptAssemblies/VoiceSDK.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="AssistantCoreSDKRuntime">
-      <HintPath>Library/ScriptAssemblies/AssistantCoreSDKRuntime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AssistantCoreSDKEditor">
@@ -1545,13 +1684,21 @@
       <Project>{70E5927A-366E-5E14-A4DE-0FA6F174F83B}</Project>
       <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
-      <Project>{3603A5D4-32E7-B4E8-8CDC-A601F1897AEF}</Project>
-      <Name>Boxophobic.Utils.Scripts</Name>
-    </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
       <Project>{161171FF-3644-75C6-7211-434E900EBE97}</Project>
       <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fusion.Unity.csproj">
+      <Project>{F85E76B0-34CA-6F80-3BEB-F300EE410A7E}</Project>
+      <Name>Fusion.Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fusion.Unity.Editor.csproj">
+      <Project>{043535FE-4F17-D766-62F6-8F4E931EE5E4}</Project>
+      <Name>Fusion.Unity.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{3603A5D4-32E7-B4E8-8CDC-A601F1897AEF}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
